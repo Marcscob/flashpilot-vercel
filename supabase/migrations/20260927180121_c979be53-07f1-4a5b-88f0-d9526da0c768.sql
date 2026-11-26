@@ -1,0 +1,1 @@
+UPDATE public.ai_action_costs SET coins_cost = 1 WHERE id = 'bulk';

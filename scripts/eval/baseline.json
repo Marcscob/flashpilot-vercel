@@ -1,0 +1,237 @@
+{
+  "savedAt": "2026-11-07T12:02:59.449Z",
+  "note": "variantes usadas pelo app após o alinhamento main/dev",
+  "summary": [
+    {
+      "feature": "audio-clean",
+      "model": "alt lite",
+      "cases": 2,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": null,
+      "avgMs": 1784,
+      "tokens": 310
+    },
+    {
+      "feature": "audio-short",
+      "model": "alt lite",
+      "cases": 1,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": null,
+      "avgMs": 1356,
+      "tokens": 144
+    },
+    {
+      "feature": "audio-silence",
+      "model": "alt lite",
+      "cases": 1,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": null,
+      "avgMs": 1308,
+      "tokens": 182
+    },
+    {
+      "feature": "audio-snr15",
+      "model": "alt lite",
+      "cases": 1,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": null,
+      "avgMs": 1583,
+      "tokens": 294
+    },
+    {
+      "feature": "audio-snr8",
+      "model": "alt lite",
+      "cases": 1,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": null,
+      "avgMs": 1717,
+      "tokens": 261
+    },
+    {
+      "feature": "cards",
+      "model": "main",
+      "cases": 8,
+      "failures": 0,
+      "checks": 1,
+      "nota": 4.97,
+      "langOk": 0.88,
+      "avgMs": 3324,
+      "tokens": 3008
+    },
+    {
+      "feature": "chat",
+      "model": "main=dev",
+      "cases": 4,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": 1,
+      "avgMs": 2477,
+      "tokens": 601
+    },
+    {
+      "feature": "chat-injection",
+      "model": "main=dev (preview low)",
+      "cases": 2,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": 1,
+      "avgMs": 3037,
+      "tokens": 707
+    },
+    {
+      "feature": "chat-multi",
+      "model": "main=dev (preview low)",
+      "cases": 3,
+      "failures": 0,
+      "checks": 0.94,
+      "nota": 4.58,
+      "langOk": 1,
+      "avgMs": 7015,
+      "tokens": 1703
+    },
+    {
+      "feature": "chat-repeat",
+      "model": "main=dev (preview low)",
+      "cases": 3,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": 1,
+      "avgMs": 2730,
+      "tokens": 669
+    },
+    {
+      "feature": "chat-single",
+      "model": "main=dev (preview low)",
+      "cases": 10,
+      "failures": 0,
+      "checks": 1,
+      "nota": 4.63,
+      "langOk": 1,
+      "avgMs": 3002,
+      "tokens": 689
+    },
+    {
+      "feature": "chat-teacher",
+      "model": "main=dev (preview low)",
+      "cases": 5,
+      "failures": 0,
+      "checks": 0.97,
+      "nota": 3.3,
+      "langOk": 1,
+      "avgMs": 3876,
+      "tokens": 994
+    },
+    {
+      "feature": "mindmap",
+      "model": "main",
+      "cases": 2,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": 1,
+      "avgMs": 1367,
+      "tokens": 615
+    },
+    {
+      "feature": "note",
+      "model": "main",
+      "cases": 3,
+      "failures": 0,
+      "checks": 1,
+      "nota": 4.83,
+      "langOk": 0.67,
+      "avgMs": 1984,
+      "tokens": 780
+    },
+    {
+      "feature": "prazos",
+      "model": "main",
+      "cases": 1,
+      "failures": 0,
+      "checks": 1,
+      "nota": 4.58,
+      "langOk": null,
+      "avgMs": 1314,
+      "tokens": 912
+    },
+    {
+      "feature": "translate",
+      "model": "main",
+      "cases": 4,
+      "failures": 0,
+      "checks": 0.96,
+      "nota": 4.63,
+      "langOk": 0.75,
+      "avgMs": 778,
+      "tokens": 157
+    },
+    {
+      "feature": "video",
+      "model": "main",
+      "cases": 3,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": 1,
+      "avgMs": 1602,
+      "tokens": 684
+    },
+    {
+      "feature": "vision-cards",
+      "model": "alt lite",
+      "cases": 8,
+      "failures": 0,
+      "checks": 1,
+      "nota": 4.69,
+      "langOk": 0.88,
+      "avgMs": 2361,
+      "tokens": 3414
+    },
+    {
+      "feature": "vision-imagepilot",
+      "model": "main (pro)",
+      "cases": 2,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": null,
+      "avgMs": 10412,
+      "tokens": 1922
+    },
+    {
+      "feature": "vision-ocr",
+      "model": "main=dev (preview)",
+      "cases": 15,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": null,
+      "avgMs": 2678,
+      "tokens": 1373
+    },
+    {
+      "feature": "vision-pdf",
+      "model": "main=dev (preview low)",
+      "cases": 3,
+      "failures": 0,
+      "checks": 1,
+      "nota": 5,
+      "langOk": 0.67,
+      "avgMs": 4854,
+      "tokens": 2995
+    }
+  ]
+}

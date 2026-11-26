@@ -1,0 +1,1 @@
+COMMENT ON FUNCTION public.reserve_ai_quota_included_only_v1(uuid, uuid, uuid, text, bigint, text) IS 'Reserves AI quota; Free tts_standalone limited to 20000 chars/day (UTC).';

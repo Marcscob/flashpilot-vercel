@@ -1,0 +1,244 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1791848076097,
+      "tag": "0000_fix_release_quota_units_zero",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792452680630,
+      "tag": "0001_current_user_password_status",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1792519330432,
+      "tag": "0002_analytics_events",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1792811347865,
+      "tag": "0003_landing_drafts_onboarding",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1792854441793,
+      "tag": "0004_pro2_plan_quotas",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793067881495,
+      "tag": "0005_flashcard_review_sync_version",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793110442831,
+      "tag": "0006_community_human_curation",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1793110727985,
+      "tag": "0007_restrict_curation_grants",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1793233347171,
+      "tag": "0008_trial_extension_from_activation",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1793365811003,
+      "tag": "0009_create_card_videos",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1793369045463,
+      "tag": "0010_persistent_card_video_audio",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1793369239668,
+      "tag": "0011_secure_shared_video_access",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1793483540243,
+      "tag": "0012_landing_draft_materials",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1793489358215,
+      "tag": "0013_fix_quota_ambiguous_period",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1793758769316,
+      "tag": "0014_landing_visitors",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1793889078598,
+      "tag": "0015_blog_newsletter_delivery",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1793895153346,
+      "tag": "0016_landing_source_throttle",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1793900000000,
+      "tag": "0017_landing_visitor_handoffs",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1793920094831,
+      "tag": "0018_ensure_landing_visitor_handoffs",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1793920133726,
+      "tag": "0019_landing_reminder_scheduler",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1793994176538,
+      "tag": "0020_ai_fallback_log",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1793994968063,
+      "tag": "0021_translation_cache",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1793994983217,
+      "tag": "0022_ai_result_cache",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1794081383217,
+      "tag": "0023_flashmatch_games",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1794168000000,
+      "tag": "0024_flashmatch_curation",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1794168000001,
+      "tag": "0025_flashmatch_comment",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1794168000002,
+      "tag": "0026_free_tts_daily_limit",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1794191349383,
+      "tag": "0027_free_tts_daily_limit_comment",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1794269379828,
+      "tag": "0028_merge_landing_generated_material",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1794411887515,
+      "tag": "0029_harden_app_manager_and_verified_flag",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1794928888512,
+      "tag": "0030_create_microcontexts",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1795134046390,
+      "tag": "0031_card_videos_microcontext",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1795307846377,
+      "tag": "0032_ebook_images_policies",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1795528741077,
+      "tag": "0033_microcontext_reviewed_at",
+      "breakpoints": true
+    }
+  ]
+}

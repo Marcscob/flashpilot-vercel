@@ -1,0 +1,1 @@
+ALTER TABLE public.topics ADD COLUMN IF NOT EXISTS article_range text;

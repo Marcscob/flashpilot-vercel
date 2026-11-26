@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Disallow: /home
+Disallow: /account
+Disallow: /settings
+Disallow: /admin
+Disallow: /blog-admin
+Disallow: /bulk
+Disallow: /bulk-v2
+Disallow: /bulkdemo
+Disallow: /review
+
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: OAI-SearchBot
+User-agent: PerplexityBot
+Allow: /
+Disallow: /home
+Disallow: /account
+Disallow: /settings
+Disallow: /admin
+Disallow: /blog-admin
+Disallow: /bulk
+Disallow: /bulk-v2
+Disallow: /bulkdemo
+Disallow: /review
+
+Sitemap: https://flashpilot.net/sitemap.xml

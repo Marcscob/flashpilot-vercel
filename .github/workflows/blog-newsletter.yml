@@ -1,0 +1,29 @@
+name: Blog newsletter
+
+# Process new blog publications and retry pending deliveries every 15 minutes.
+# CRON_SECRET must match the production environment variable.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: blog-newsletter-delivery
+  cancel-in-progress: false
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call blog newsletter hook
+        run: |
+          http_code=$(curl -s -o /tmp/response.json -w "%{http_code}" \
+            -X POST "https://flashpilot.net/api/public/hooks/blog-newsletter" \
+            -H "x-cron-secret: ${{ secrets.CRON_SECRET }}")
+          echo "HTTP status: $http_code"
+          cat /tmp/response.json
+          if [ "$http_code" -lt 200 ] || [ "$http_code" -ge 300 ]; then
+            echo "Falha ao processar a newsletter do blog (status $http_code)"
+            exit 1
+          fi

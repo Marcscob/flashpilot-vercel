@@ -1,0 +1,1 @@
+UPDATE public.ai_budget_limits SET enabled = true, metering_ready = true WHERE id = 1;

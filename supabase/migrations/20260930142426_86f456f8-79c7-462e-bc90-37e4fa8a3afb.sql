@@ -1,0 +1,1 @@
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS welcome_modal_dismissed_at TIMESTAMPTZ;

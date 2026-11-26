@@ -1,0 +1,2 @@
+ALTER TABLE public.flashcards ADD COLUMN IF NOT EXISTS is_favorite boolean NOT NULL DEFAULT false;
+CREATE INDEX IF NOT EXISTS flashcards_user_favorite_idx ON public.flashcards(user_id, is_favorite) WHERE is_favorite = true;

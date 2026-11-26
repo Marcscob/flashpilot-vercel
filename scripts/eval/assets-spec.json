@@ -1,0 +1,93 @@
+{
+  "images": [
+    {
+      "id": "pt-printed",
+      "kind": "text", "lang": "pt", "font": "Segoe UI", "size": 26, "width": 1000, "height": 620,
+      "text": "Recursos no CPC\nApelação: prazo de 15 dias úteis, cabe contra sentença.\nEmbargos de declaração: prazo de 5 dias úteis; interrompem o prazo dos demais recursos.\nRecurso especial: prazo de 15 dias úteis; cabe ao STJ e exige prequestionamento.\nRecurso extraordinário: prazo de 15 dias úteis; cabe ao STF e exige repercussão geral."
+    },
+    {
+      "id": "pt-handwritten",
+      "kind": "text", "lang": "pt", "font": "Segoe Script", "size": 24, "width": 1000, "height": 620, "lined": true, "rotate": 2,
+      "text": "Mitocôndria\nOrganela responsável pela respiração celular.\nProduz a maior parte do ATP da célula.\nPossui DNA próprio e membrana dupla."
+    },
+    {
+      "id": "en-photo-skewed",
+      "kind": "text", "lang": "en", "font": "Arial", "size": 26, "width": 1000, "height": 640, "rotate": -6, "photo": true,
+      "text": "Photosynthesis\nLight reactions occur in the thylakoid membranes.\nThe Calvin cycle occurs in the stroma.\nRubisco fixes carbon dioxide into G3P.\nLimiting factors: light, CO2 and temperature."
+    },
+    {
+      "id": "pt-table",
+      "kind": "table", "lang": "pt", "font": "Segoe UI", "size": 24, "width": 1000, "height": 520,
+      "rows": [["Recurso", "Prazo", "Órgão"], ["Apelação", "15 dias úteis", "Tribunal"], ["Embargos de declaração", "5 dias úteis", "Mesmo juízo"], ["Recurso especial", "15 dias úteis", "STJ"], ["Recurso extraordinário", "15 dias úteis", "STF"]],
+      "text": "Recurso Prazo Órgão\nApelação 15 dias úteis Tribunal\nEmbargos de declaração 5 dias úteis Mesmo juízo\nRecurso especial 15 dias úteis STJ\nRecurso extraordinário 15 dias úteis STF"
+    },
+    {
+      "id": "ja-printed", "kind": "text", "lang": "ja", "font": "Yu Gothic UI", "size": 30, "width": 1000, "height": 360,
+      "text": "光合成は光のエネルギーを化学エネルギーに変換します。\n葉緑体のチラコイド膜で光化学反応が起こります。"
+    },
+    {
+      "id": "zh-printed", "kind": "text", "lang": "zh-CN", "font": "Microsoft YaHei UI", "size": 30, "width": 1000, "height": 360,
+      "text": "线粒体是细胞进行呼吸作用的细胞器。\n它产生细胞所需的大部分能量。"
+    },
+    {
+      "id": "ko-printed", "kind": "text", "lang": "ko", "font": "Malgun Gothic", "size": 28, "width": 1000, "height": 360,
+      "text": "인플레이션은 물가가 지속적으로 오르는 현상입니다.\n중앙은행은 금리를 올려 물가를 안정시킵니다."
+    },
+    {
+      "id": "ar-printed", "kind": "text", "lang": "ar", "font": "Segoe UI", "size": 30, "width": 1000, "height": 360, "rtl": true,
+      "text": "التمثيل الضوئي يحول طاقة الضوء إلى طاقة كيميائية.\nيحدث في البلاستيدات الخضراء داخل الخلية."
+    },
+    {
+      "id": "he-printed", "kind": "text", "lang": "he", "font": "Segoe UI", "size": 30, "width": 1000, "height": 360, "rtl": true,
+      "text": "המיטוכונדריה היא האברון האחראי לנשימה תאית.\nהיא מייצרת את רוב האנרגיה של התא."
+    },
+    {
+      "id": "hi-printed", "kind": "text", "lang": "hi", "font": "Nirmala UI", "size": 30, "width": 1000, "height": 360,
+      "text": "प्रकाश संश्लेषण में पौधे सूर्य के प्रकाश से भोजन बनाते हैं।\nयह क्रिया हरित लवक में होती है।"
+    },
+    {
+      "id": "th-printed", "kind": "text", "lang": "th", "font": "Leelawadee UI", "size": 28, "width": 1000, "height": 360,
+      "text": "การสังเคราะห์ด้วยแสงเปลี่ยนพลังงานแสงเป็นพลังงานเคมี\nเกิดขึ้นในคลอโรพลาสต์ของเซลล์พืช"
+    },
+    {
+      "id": "ru-printed", "kind": "text", "lang": "ru", "font": "Segoe UI", "size": 28, "width": 1000, "height": 360,
+      "text": "Митохондрия отвечает за клеточное дыхание.\nОна вырабатывает большую часть энергии клетки."
+    },
+    {
+      "id": "el-printed", "kind": "text", "lang": "el", "font": "Segoe UI", "size": 28, "width": 1000, "height": 360,
+      "text": "Ο πληθωρισμός είναι η διαρκής άνοδος του γενικού επιπέδου τιμών.\nΟι κεντρικές τράπεζες στοχεύουν στο δύο τοις εκατό."
+    },
+    {
+      "id": "ka-printed", "kind": "text", "lang": "ka", "font": "Segoe UI", "size": 28, "width": 1000, "height": 360,
+      "text": "მიტოქონდრია უჯრედის სუნთქვაზე პასუხისმგებელი ორგანოიდია.\nის აწარმოებს უჯრედის ენერგიის უმეტეს ნაწილს."
+    },
+    {
+      "id": "hy-printed", "kind": "text", "lang": "hy", "font": "Segoe UI", "size": 28, "width": 1000, "height": 360,
+      "text": "Միտոքոնդրիան բջջային շնչառության օրգանոիդն է։\nԱյն արտադրում է բջջի էներգիայի մեծ մասը։"
+    }
+  ],
+  "diagram": {
+    "id": "flor-diagram", "lang": "pt", "width": 1000, "height": 700,
+    "shapes": [
+      { "t": "rect", "x": 485, "y": 280, "w": 30, "h": 330, "c": "#2E8B3A" },
+      { "t": "ellipse", "x": 520, "y": 430, "w": 190, "h": 80, "c": "#4CAF50", "rotate": -25 },
+      { "t": "ellipse", "x": 330, "y": 120, "w": 90, "h": 130, "c": "#E85D9A" },
+      { "t": "ellipse", "x": 580, "y": 120, "w": 90, "h": 130, "c": "#E85D9A" },
+      { "t": "ellipse", "x": 455, "y": 70, "w": 90, "h": 130, "c": "#E85D9A" },
+      { "t": "ellipse", "x": 455, "y": 190, "w": 90, "h": 130, "c": "#E85D9A" },
+      { "t": "circle", "x": 500, "y": 195, "r": 38, "c": "#F2C230" },
+      { "t": "ellipse", "x": 440, "y": 300, "w": 120, "h": 40, "c": "#1F6F2B" },
+      { "t": "line", "x1": 500, "y1": 610, "x2": 430, "y2": 690, "c": "#8B5A2B" },
+      { "t": "line", "x1": 500, "y1": 610, "x2": 500, "y2": 695, "c": "#8B5A2B" },
+      { "t": "line", "x1": 500, "y1": 610, "x2": 575, "y2": 690, "c": "#8B5A2B" }
+    ],
+    "labels": [
+      { "text": "Pétala", "tx": 90, "ty": 70, "ax": 375, "ay": 185 },
+      { "text": "Pistilo", "tx": 740, "ty": 60, "ax": 500, "ay": 195 },
+      { "text": "Sépala", "tx": 760, "ty": 300, "ax": 530, "ay": 320 },
+      { "text": "Folha", "tx": 760, "ty": 430, "ax": 640, "ay": 450 },
+      { "text": "Caule", "tx": 150, "ty": 420, "ax": 485, "ay": 450 },
+      { "text": "Raiz", "tx": 150, "ty": 620, "ax": 440, "ay": 665 }
+    ]
+  }
+}

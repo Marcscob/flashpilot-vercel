@@ -1,0 +1,1 @@
+ALTER TABLE public.document_jobs ADD COLUMN IF NOT EXISTS input_images jsonb NOT NULL DEFAULT '[]'::jsonb;

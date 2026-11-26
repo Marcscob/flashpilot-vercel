@@ -1,0 +1,1 @@
+ALTER TABLE public.landing_drafts ADD COLUMN IF NOT EXISTS want_note boolean NOT NULL DEFAULT false, ADD COLUMN IF NOT EXISTS want_map boolean NOT NULL DEFAULT false;

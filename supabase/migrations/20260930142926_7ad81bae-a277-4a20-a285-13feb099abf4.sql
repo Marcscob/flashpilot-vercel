@@ -1,0 +1,1 @@
+UPDATE public.profiles SET welcome_modal_dismissed_at = NULL WHERE user_id = 'cb7012f8-f582-4608-b796-c9345cac1143';

@@ -1,0 +1,600 @@
+import { useLang, useOverlayD, type Lang } from "./i18n";
+import { applyDictOverlay } from "./app-ext-langs";
+
+/**
+ * Traduções dos elementos apontados na auditoria manual (PDF):
+ * Anotações, Flashcards (listagem/diálogos) e Configurações.
+ */
+export type ScreenCopy = {
+  notes: {
+    image: string; video: string;
+    contentAdded: string; noPrevious: string; formatUndone: string;
+    linkedFlashcard: string;
+    narrate: string; genMindMap: string; aiFormat: string; undoFormat: string;
+    openVideo: string; openMindMap: string; openImage: string; fromFlashcard: string;
+    addMedia: string; addMediaTitle: string;
+    newNote: string; bulkFormat: string; apostila: string;
+    allNotes: string; noCategory: string; myCategories: string;
+    files: string; all: string;
+    syncTitle: string; syncDescSubject: string; syncDescTopic: string;
+    subject: string; topic: string;
+    unlink: string; unlinkConfirm: string; linkTo: string;
+    categoryLinked: string; subjectCreated: string; topicCreated: string;
+    createNew: string; createAsSubject: string; createInside: string;
+    linkExisting: string; loading: string; nothingFound: string;
+    cancel: string; addContent: string; imageTitle: string; videoTitle: string;
+    bulkFormatBtn: string; apostilaBtn: string; myCategoriesLabel: string;
+    genMindMapBtn: string; aiFormatBtn: string; undoBtn: string;
+    empty: string; sync: string; syncing: string;
+  };
+  fc: {
+    pickSubjectFirst: string; notAuthenticated: string; orderSaveFail: string;
+    deleted: string; pickSubject: string;
+    reviewedAll: string; reviewedYes: string; reviewedNo: string;
+    flashSession: string; allFem: string; none: string;
+    onlyThisItem: string; subtopic: string; pickTopic: string; noLevels: string; all: string;
+    clear: string; mapLimit: string;
+    move: string; moveTitle: string; orderOptional: string;
+    targetSubject: string; selectSubject: string; generalCreate: string;
+    cancel: string; moving: string; moveBtn: string;
+    newTopic: string; creating: string; create: string;
+    linkedNote: string; subject: string; generatedAt: string; page: string; of: string;
+    topicNameRequired: string; addBtn: string; selectAll: string; unselectAll: string;
+    genMindMap: string; favorite: string; moveTo: string;
+    moveMany: (n: number) => string; moveOne: string; selectedCount: (n: number) => string;
+    targetTopic: string; targetTopicHint: string;
+  };
+  settings: {
+    tgAlerts: string; tgAlertsHint: string; telegram: string;
+    telegramDescription: string; linked: string; linkedSuccess: string; unlinkedSuccess: string; testSend: string; testSent: string; sendFailed: string;
+    connectBtn: string; howTitle: string;
+    mobileTab: string; pcTab: string;
+    mobileS1: string; mobileS2: string; mobileS3: string;
+    pcS1: string; pcS2: string; pcS3: string;
+    noTyping: string; openWeb: string; waitingConfirmation: string; manualOption: string; manualHint: string;
+    yourCode: string; codeCopied: string; copyCode: string;
+    generating: string;
+    unlink: string; validFor: (m: number) => string; openTelegram: string;
+    cancel: string;
+  };
+};
+
+const pt: ScreenCopy = {
+  notes: {
+    image: "Imagem", video: "Vídeo",
+    contentAdded: "Conteúdo adicionado", noPrevious: "Não há versão anterior.", formatUndone: "Formatação desfeita",
+    linkedFlashcard: "Flashcard vinculado",
+    narrate: "Narrar anotação", genMindMap: "Gerar um mapa mental desta anotação com o PilotAI",
+    aiFormat: "Padronizar títulos e layout com o PilotAI", undoFormat: "Voltar ao texto anterior à formatação",
+    openVideo: "Abrir vídeo", openMindMap: "Abrir mapa mental", openImage: "Abrir imagem",
+    fromFlashcard: "vindo de um flashcard",
+    addMedia: "Adicionar imagem ou vídeo", addMediaTitle: "Adicionar imagem ou vídeo a esta anotação",
+    newNote: "Criar uma nova anotação em branco", bulkFormat: "Formatar várias anotações de uma vez com o PilotAI",
+    apostila: "Gerar apostila em PDF com as anotações",
+    allNotes: "Mostrar todas as anotações, sem filtro de categoria",
+    noCategory: "Mostrar apenas anotações sem categoria",
+    myCategories: "Categorias criadas por você, fora da estrutura de matérias",
+    files: "Arquivos", all: "Todos",
+    syncTitle: "Sincronizar flashcards?",
+    syncDescSubject: "Os flashcards serão classificados na matéria correspondente.",
+    syncDescTopic: "Os flashcards serão classificados no assunto correspondente.",
+    subject: "Matéria", topic: "Assunto",
+    unlink: "Desvincular (mantém o conteúdo)",
+    unlinkConfirm: "Desvincular esta categoria? O conteúdo é mantido e ela vai para 'Minhas categorias'.",
+    linkTo: "Vincular a matéria/assunto…",
+    categoryLinked: "Categoria vinculada — todo o conteúdo foi mantido",
+    subjectCreated: "Matéria criada — categoria vinculada, conteúdo mantido",
+    topicCreated: "Assunto criado — categoria vinculada, conteúdo mantido",
+    createNew: "Criar novo (a categoria vira o espelho oficial)",
+    createAsSubject: "Criar como matéria (raiz)", createInside: "Criar como assunto dentro de…",
+    linkExisting: "Ou vincular a matéria/assunto existente…",
+    loading: "Carregando…", nothingFound: "Nada encontrado",
+    cancel: "Cancelar", addContent: "Adicionar conteúdo",
+    imageTitle: "Título da imagem", videoTitle: "Título do vídeo",
+    bulkFormatBtn: "Formatar em lote", apostilaBtn: "Apostila", myCategoriesLabel: "Minhas categorias",
+    genMindMapBtn: "Gerar mapa mental", aiFormatBtn: "Formatar com o PilotAI", undoBtn: "Desfazer",
+    empty: "Vazio", sync: "Sincronizar", syncing: "Sincronizando…",
+  },
+  fc: {
+    pickSubjectFirst: "Selecione uma matéria primeiro", notAuthenticated: "Não autenticado",
+    orderSaveFail: "Não foi possível salvar a nova ordem.",
+    deleted: "Flashcards excluídos", pickSubject: "Selecione uma matéria",
+    reviewedAll: "Revisados: todos", reviewedYes: "Somente revisados", reviewedNo: "Somente não revisados",
+    flashSession: "Flash Session", allFem: "Todas", none: "Nenhum",
+    onlyThisItem: "Somente deste item (sem níveis abaixo)",
+    subtopic: "Subtópico / subitem", pickTopic: "Escolha um assunto", noLevels: "Sem níveis abaixo", all: "Todos",
+    clear: "Limpar", mapLimit: "Escolha no máximo 60 flashcards para o mapa mental.",
+    move: "Mover", moveTitle: "Mover para outra matéria/tópico", orderOptional: "Ordem (opcional)",
+    targetSubject: "Matéria de destino", selectSubject: "Selecione a matéria",
+    generalCreate: "Geral (criar se não existir)",
+    cancel: "Cancelar", moving: "Movendo…", moveBtn: "Mover",
+    newTopic: "Novo assunto", creating: "Criando…", create: "Criar",
+    linkedNote: "Anotação vinculada", subject: "Matéria",
+    generatedAt: "Gerado em", page: "Página", of: "de",
+    topicNameRequired: "Informe o nome do assunto", addBtn: "Adicionar",
+    selectAll: "Selecionar todos", unselectAll: "Desmarcar todos",
+    genMindMap: "Gerar mapa mental", favorite: "Favoritar", moveTo: "Mover para outra matéria/tópico",
+    moveMany: (n) => `Mover ${n} flashcards`, moveOne: "Mover flashcard",
+    selectedCount: (n) => (n === 1 ? "flashcard selecionado" : "flashcards selecionados"),
+    targetTopic: "Assunto / subtópico de destino", targetTopicHint: "(opcional — se vazio, usamos \"Geral\")",
+  },
+  settings: {
+    tgAlerts: "Alertas pelo Telegram", tgAlertsHint: "Enviar lembretes de revisão no seu chat vinculado.",
+    telegram: "Telegram", telegramDescription: "Receba lembretes automáticos de revisão no Telegram.",
+    linked: "Conta vinculada", linkedSuccess: "Telegram vinculado!", unlinkedSuccess: "Telegram desvinculado", testSend: "Testar envio", testSent: "Mensagem enviada! Confira seu Telegram.", sendFailed: "Não foi possível enviar a mensagem. Tente novamente.",
+    connectBtn: "Conectar meu Telegram", howTitle: "Como funciona",
+    mobileTab: "No celular", pcTab: "No computador",
+    mobileS1: "Toque no botão “Abrir Telegram” abaixo.",
+    mobileS2: "O aplicativo do Telegram abre sozinho, já na conversa do FlashPilot.",
+    mobileS3: "Toque em “Iniciar”, o botão azul na parte de baixo da tela. Pronto!",
+    pcS1: "Aponte a câmera do seu celular para o código ao lado.",
+    pcS2: "Toque no link que aparecer — o Telegram abre na conversa do FlashPilot.",
+    pcS3: "Toque em “Iniciar”. Pronto! Se preferir, use o botão “Abrir Telegram” para conectar por este computador.",
+    noTyping: "Você não precisa digitar código nenhum — ele viaja escondido no link.",
+    openWeb: "Abrir no Telegram Web (navegador)",
+    waitingConfirmation: "Aguardando confirmação do Telegram…", manualOption: "Prefere enviar o código manualmente?", manualHint: "Copie este código e envie-o na conversa do FlashPilot no Telegram.",
+    yourCode: "Código de vinculação", codeCopied: "Código copiado", copyCode: "Copiar código",
+    generating: "Gerando…",
+    unlink: "Desvincular", validFor: (m) => `Válido por ${m} min. Aguardando vinculação…`,
+    openTelegram: "Abrir Telegram", cancel: "Cancelar",
+  },
+};
+
+const ptPT: ScreenCopy = {
+  notes: {
+    ...pt.notes,
+    contentAdded: "Conteúdo adicionado", formatUndone: "Formatação anulada",
+    files: "Ficheiros", loading: "A carregar…",
+    newNote: "Criar uma nova anotação em branco",
+    unlinkConfirm: "Desassociar esta categoria? O conteúdo é mantido e passa para 'As minhas categorias'.",
+    unlink: "Desassociar (mantém o conteúdo)", linkTo: "Associar a disciplina/assunto…",
+    linkExisting: "Ou associar a disciplina/assunto existente…",
+    categoryLinked: "Categoria associada — todo o conteúdo foi mantido",
+    subject: "Disciplina", createAsSubject: "Criar como disciplina (raiz)",
+    myCategories: "Categorias criadas por si, fora da estrutura de disciplinas",
+    genMindMapBtn: "Gerar mapa mental", aiFormatBtn: "Formatar com o PilotAI", undoBtn: "Desfazer",
+    empty: "Vazio", sync: "Sincronizar", syncing: "A sincronizar…",
+  },
+  fc: {
+    ...pt.fc,
+    pickSubjectFirst: "Selecione uma disciplina primeiro", pickSubject: "Selecione uma disciplina",
+    orderSaveFail: "Não foi possível guardar a nova ordem.",
+    targetSubject: "Disciplina de destino", selectSubject: "Selecione a disciplina", subject: "Disciplina",
+  },
+  settings: {
+    ...pt.settings,
+    tgAlertsHint: "Enviar lembretes de revisão no seu chat associado.",
+    telegramDescription: "Receba lembretes automáticos de revisão no Telegram.",
+    linkedSuccess: "Telegram associado!", unlinkedSuccess: "Telegram desassociado",
+    mobileS2: "A aplicação do Telegram abre sozinha, já na conversa do FlashPilot.",
+    mobileS3: "Toque em «Iniciar», o botão azul na parte de baixo do ecrã. Pronto!",
+    pcS1: "Aponte a câmara do seu telemóvel para o código ao lado.",
+    pcS3: "Toque em «Iniciar». Pronto! Se preferir, use o botão «Abrir Telegram» para associar por este computador.",
+    noTyping: "Não precisa de escrever código nenhum — ele viaja escondido no link.",
+    openWeb: "Abrir no Telegram Web (navegador)",
+    waitingConfirmation: "A aguardar confirmação do Telegram…", manualOption: "Prefere enviar o código manualmente?", manualHint: "Copie este código e envie-o na conversa do FlashPilot no Telegram.",
+  },
+};
+
+const en: ScreenCopy = {
+  notes: {
+    image: "Image", video: "Video",
+    contentAdded: "Content added", noPrevious: "There is no previous version.", formatUndone: "Formatting undone",
+    linkedFlashcard: "Linked flashcard",
+    narrate: "Read note aloud", genMindMap: "Generate a mind map from this note with PilotAI",
+    aiFormat: "Standardize headings and layout with PilotAI", undoFormat: "Back to the text before formatting",
+    openVideo: "Open video", openMindMap: "Open mind map", openImage: "Open image",
+    fromFlashcard: "from a flashcard",
+    addMedia: "Add image or video", addMediaTitle: "Add an image or video to this note",
+    newNote: "Create a new blank note", bulkFormat: "Format several notes at once with PilotAI",
+    apostila: "Generate a PDF workbook with the notes",
+    allNotes: "Show all notes, no category filter",
+    noCategory: "Show only notes without a category",
+    myCategories: "Categories you created, outside the subject structure",
+    files: "Files", all: "All",
+    syncTitle: "Sync flashcards?",
+    syncDescSubject: "Flashcards will be filed under the matching subject.",
+    syncDescTopic: "Flashcards will be filed under the matching topic.",
+    subject: "Subject", topic: "Topic",
+    unlink: "Unlink (keeps the content)",
+    unlinkConfirm: "Unlink this category? The content is kept and it moves to 'My categories'.",
+    linkTo: "Link to a subject/topic…",
+    categoryLinked: "Category linked — all content was kept",
+    subjectCreated: "Subject created — category linked, content kept",
+    topicCreated: "Topic created — category linked, content kept",
+    createNew: "Create new (the category becomes the official mirror)",
+    createAsSubject: "Create as subject (root)", createInside: "Create as topic inside…",
+    linkExisting: "Or link to an existing subject/topic…",
+    loading: "Loading…", nothingFound: "Nothing found",
+    cancel: "Cancel", addContent: "Add content",
+    imageTitle: "Image title", videoTitle: "Video title",
+    bulkFormatBtn: "Bulk format", apostilaBtn: "Workbook", myCategoriesLabel: "My categories",
+    genMindMapBtn: "Generate mind map", aiFormatBtn: "Format with PilotAI", undoBtn: "Undo",
+    empty: "Empty", sync: "Sync", syncing: "Syncing…",
+  },
+  fc: {
+    pickSubjectFirst: "Select a subject first", notAuthenticated: "Not authenticated",
+    orderSaveFail: "Could not save the new order.",
+    deleted: "Flashcards deleted", pickSubject: "Select a subject",
+    reviewedAll: "Reviewed: all", reviewedYes: "Reviewed only", reviewedNo: "Not reviewed only",
+    flashSession: "Flash Session", allFem: "All", none: "None",
+    onlyThisItem: "Only this item (no levels below)",
+    subtopic: "Subtopic / sub-item", pickTopic: "Choose a topic", noLevels: "No levels below", all: "All",
+    clear: "Clear", mapLimit: "Choose at most 60 flashcards for the mind map.",
+    move: "Move", moveTitle: "Move to another subject/topic", orderOptional: "Order (optional)",
+    targetSubject: "Target subject", selectSubject: "Select the subject",
+    generalCreate: "General (create if missing)",
+    cancel: "Cancel", moving: "Moving…", moveBtn: "Move",
+    newTopic: "New topic", creating: "Creating…", create: "Create",
+    linkedNote: "Linked note", subject: "Subject",
+    generatedAt: "Generated on", page: "Page", of: "of",
+    topicNameRequired: "Enter the topic name", addBtn: "Add",
+    selectAll: "Select all", unselectAll: "Unselect all",
+    genMindMap: "Generate mind map", favorite: "Favorite", moveTo: "Move to another subject/topic",
+    moveMany: (n) => `Move ${n} flashcards`, moveOne: "Move flashcard",
+    selectedCount: (n) => (n === 1 ? "flashcard selected" : "flashcards selected"),
+    targetTopic: "Target topic / subtopic", targetTopicHint: "(optional — if empty we use \"General\")",
+  },
+  settings: {
+    tgAlerts: "Telegram alerts", tgAlertsHint: "Send review reminders to your linked chat.",
+    telegram: "Telegram", telegramDescription: "Get automatic review reminders on Telegram.",
+    linked: "Account linked", linkedSuccess: "Telegram linked!", unlinkedSuccess: "Telegram unlinked", testSend: "Send a test", testSent: "Message sent! Check your Telegram.", sendFailed: "We couldn't send the message. Please try again.",
+    connectBtn: "Connect my Telegram", howTitle: "How it works",
+    mobileTab: "On your phone", pcTab: "On your computer",
+    mobileS1: "Tap the “Open Telegram” button below.",
+    mobileS2: "The Telegram app opens by itself, right in the FlashPilot chat.",
+    mobileS3: "Tap “Start”, the blue button at the bottom of the screen. Done!",
+    pcS1: "Point your phone's camera at the code on the side.",
+    pcS2: "Tap the link that appears — Telegram opens in the FlashPilot chat.",
+    pcS3: "Tap “Start”. Done! If you prefer, use the “Open Telegram” button to connect on this computer.",
+    noTyping: "You don't need to type any code — it travels hidden inside the link.",
+    openWeb: "Open in Telegram Web (browser)",
+    waitingConfirmation: "Waiting for confirmation from Telegram…", manualOption: "Prefer to send the code manually?", manualHint: "Copy this code and send it in the FlashPilot chat on Telegram.",
+    yourCode: "Linking code", codeCopied: "Code copied", copyCode: "Copy code",
+    generating: "Generating…",
+    unlink: "Unlink", validFor: (m) => `Valid for ${m} min. Waiting for the link…`,
+    openTelegram: "Open Telegram", cancel: "Cancel",
+  },
+};
+
+const es: ScreenCopy = {
+  notes: {
+    image: "Imagen", video: "Vídeo",
+    contentAdded: "Contenido añadido", noPrevious: "No hay versión anterior.", formatUndone: "Formato deshecho",
+    linkedFlashcard: "Flashcard vinculada",
+    narrate: "Narrar la nota", genMindMap: "Generar un mapa mental de esta nota con PilotAI",
+    aiFormat: "Estandarizar títulos y diseño con PilotAI", undoFormat: "Volver al texto anterior al formato",
+    openVideo: "Abrir vídeo", openMindMap: "Abrir mapa mental", openImage: "Abrir imagen",
+    fromFlashcard: "procedente de una flashcard",
+    addMedia: "Añadir imagen o vídeo", addMediaTitle: "Añadir una imagen o vídeo a esta nota",
+    newNote: "Crear una nota nueva en blanco", bulkFormat: "Formatear varias notas a la vez con PilotAI",
+    apostila: "Generar un cuadernillo en PDF con las notas",
+    allNotes: "Mostrar todas las notas, sin filtro de categoría",
+    noCategory: "Mostrar solo notas sin categoría",
+    myCategories: "Categorías creadas por ti, fuera de la estructura de materias",
+    files: "Archivos", all: "Todos",
+    syncTitle: "¿Sincronizar flashcards?",
+    syncDescSubject: "Las flashcards se clasificarán en la materia correspondiente.",
+    syncDescTopic: "Las flashcards se clasificarán en el tema correspondiente.",
+    subject: "Materia", topic: "Tema",
+    unlink: "Desvincular (mantiene el contenido)",
+    unlinkConfirm: "¿Desvincular esta categoría? El contenido se mantiene y pasa a 'Mis categorías'.",
+    linkTo: "Vincular a materia/tema…",
+    categoryLinked: "Categoría vinculada — todo el contenido se mantuvo",
+    subjectCreated: "Materia creada — categoría vinculada, contenido mantenido",
+    topicCreated: "Tema creado — categoría vinculada, contenido mantenido",
+    createNew: "Crear nuevo (la categoría pasa a ser el espejo oficial)",
+    createAsSubject: "Crear como materia (raíz)", createInside: "Crear como tema dentro de…",
+    linkExisting: "O vincular a una materia/tema existente…",
+    loading: "Cargando…", nothingFound: "No se encontró nada",
+    cancel: "Cancelar", addContent: "Añadir contenido",
+    imageTitle: "Título de la imagen", videoTitle: "Título del vídeo",
+    bulkFormatBtn: "Formatear en lote", apostilaBtn: "Cuadernillo", myCategoriesLabel: "Mis categorías",
+    genMindMapBtn: "Generar mapa mental", aiFormatBtn: "Formatear con PilotAI", undoBtn: "Deshacer",
+    empty: "Vacío", sync: "Sincronizar", syncing: "Sincronizando…",
+  },
+  fc: {
+    pickSubjectFirst: "Selecciona primero una materia", notAuthenticated: "No autenticado",
+    orderSaveFail: "No se pudo guardar el nuevo orden.",
+    deleted: "Flashcards eliminadas", pickSubject: "Selecciona una materia",
+    reviewedAll: "Repasadas: todas", reviewedYes: "Solo repasadas", reviewedNo: "Solo sin repasar",
+    flashSession: "Flash Session", allFem: "Todas", none: "Ninguno",
+    onlyThisItem: "Solo de este elemento (sin niveles inferiores)",
+    subtopic: "Subtema / subelemento", pickTopic: "Elige un tema", noLevels: "Sin niveles inferiores", all: "Todos",
+    clear: "Limpiar", mapLimit: "Elige como máximo 60 flashcards para el mapa mental.",
+    move: "Mover", moveTitle: "Mover a otra materia/tema", orderOptional: "Orden (opcional)",
+    targetSubject: "Materia de destino", selectSubject: "Selecciona la materia",
+    generalCreate: "General (crear si no existe)",
+    cancel: "Cancelar", moving: "Moviendo…", moveBtn: "Mover",
+    newTopic: "Nuevo tema", creating: "Creando…", create: "Crear",
+    linkedNote: "Nota vinculada", subject: "Materia",
+    generatedAt: "Generado el", page: "Página", of: "de",
+    topicNameRequired: "Indica el nombre del tema", addBtn: "Añadir",
+    selectAll: "Seleccionar todo", unselectAll: "Desmarcar todo",
+    genMindMap: "Generar mapa mental", favorite: "Favorito", moveTo: "Mover a otra materia/tema",
+    moveMany: (n) => `Mover ${n} flashcards`, moveOne: "Mover flashcard",
+    selectedCount: (n) => (n === 1 ? "flashcard seleccionada" : "flashcards seleccionadas"),
+    targetTopic: "Tema / subtema de destino", targetTopicHint: "(opcional — si está vacío usamos \"General\")",
+  },
+  settings: {
+    tgAlerts: "Alertas por Telegram", tgAlertsHint: "Enviar recordatorios de repaso a tu chat vinculado.",
+    telegram: "Telegram", telegramDescription: "Recibe recordatorios automáticos de repaso en Telegram.",
+    linked: "Cuenta vinculada", linkedSuccess: "¡Telegram vinculado!", unlinkedSuccess: "Telegram desvinculado", testSend: "Probar envío", testSent: "¡Mensaje enviado! Revisa tu Telegram.", sendFailed: "No pudimos enviar el mensaje. Inténtalo de nuevo.",
+    connectBtn: "Conectar mi Telegram", howTitle: "Cómo funciona",
+    mobileTab: "En el móvil", pcTab: "En el ordenador",
+    mobileS1: "Toca el botón “Abrir Telegram” de abajo.",
+    mobileS2: "La aplicación de Telegram se abre sola, ya en la conversación de FlashPilot.",
+    mobileS3: "Toca “Iniciar”, el botón azul en la parte inferior de la pantalla. ¡Listo!",
+    pcS1: "Apunta la cámara de tu móvil al código de al lado.",
+    pcS2: "Toca el enlace que aparece — Telegram se abre en la conversación de FlashPilot.",
+    pcS3: "Toca “Iniciar”. ¡Listo! Si prefieres, usa el botón “Abrir Telegram” para conectar desde este ordenador.",
+    noTyping: "No necesitas escribir ningún código — viaja escondido en el enlace.",
+    openWeb: "Abrir en Telegram Web (navegador)",
+    waitingConfirmation: "Esperando la confirmación de Telegram…", manualOption: "¿Prefieres enviar el código manualmente?", manualHint: "Copia este código y envíalo en la conversación de FlashPilot en Telegram.",
+    yourCode: "Código de vinculación", codeCopied: "Código copiado", copyCode: "Copiar código",
+    generating: "Generando…",
+    unlink: "Desvincular", validFor: (m) => `Válido por ${m} min. Esperando la vinculación…`,
+    openTelegram: "Abrir Telegram", cancel: "Cancelar",
+  },
+};
+
+const fr: ScreenCopy = {
+  notes: {
+    image: "Image", video: "Vidéo",
+    contentAdded: "Contenu ajouté", noPrevious: "Aucune version précédente.", formatUndone: "Mise en forme annulée",
+    linkedFlashcard: "Flashcard liée",
+    narrate: "Lire la note à voix haute", genMindMap: "Générer une carte mentale de cette note avec PilotAI",
+    aiFormat: "Uniformiser les titres et la mise en page avec PilotAI", undoFormat: "Revenir au texte avant la mise en forme",
+    openVideo: "Ouvrir la vidéo", openMindMap: "Ouvrir la carte mentale", openImage: "Ouvrir l'image",
+    fromFlashcard: "issu d'une flashcard",
+    addMedia: "Ajouter une image ou une vidéo", addMediaTitle: "Ajouter une image ou une vidéo à cette note",
+    newNote: "Créer une nouvelle note vierge", bulkFormat: "Mettre en forme plusieurs notes à la fois avec PilotAI",
+    apostila: "Générer un fascicule PDF avec les notes",
+    allNotes: "Afficher toutes les notes, sans filtre de catégorie",
+    noCategory: "Afficher seulement les notes sans catégorie",
+    myCategories: "Catégories créées par vous, hors de la structure des matières",
+    files: "Fichiers", all: "Tous",
+    syncTitle: "Synchroniser les flashcards ?",
+    syncDescSubject: "Les flashcards seront classées dans la matière correspondante.",
+    syncDescTopic: "Les flashcards seront classées dans le sujet correspondant.",
+    subject: "Matière", topic: "Sujet",
+    unlink: "Dissocier (conserve le contenu)",
+    unlinkConfirm: "Dissocier cette catégorie ? Le contenu est conservé et elle passe dans « Mes catégories ».",
+    linkTo: "Associer à une matière/un sujet…",
+    categoryLinked: "Catégorie associée — tout le contenu a été conservé",
+    subjectCreated: "Matière créée — catégorie associée, contenu conservé",
+    topicCreated: "Sujet créé — catégorie associée, contenu conservé",
+    createNew: "Créer (la catégorie devient le miroir officiel)",
+    createAsSubject: "Créer comme matière (racine)", createInside: "Créer comme sujet dans…",
+    linkExisting: "Ou associer à une matière/un sujet existant…",
+    loading: "Chargement…", nothingFound: "Aucun résultat",
+    cancel: "Annuler", addContent: "Ajouter du contenu",
+    imageTitle: "Titre de l'image", videoTitle: "Titre de la vidéo",
+    bulkFormatBtn: "Mise en forme par lot", apostilaBtn: "Fascicule", myCategoriesLabel: "Mes catégories",
+    genMindMapBtn: "Générer une carte mentale", aiFormatBtn: "Mettre en forme avec PilotAI", undoBtn: "Annuler",
+    empty: "Vide", sync: "Synchroniser", syncing: "Synchronisation…",
+  },
+  fc: {
+    pickSubjectFirst: "Choisissez d'abord une matière", notAuthenticated: "Non authentifié",
+    orderSaveFail: "Impossible d'enregistrer le nouvel ordre.",
+    deleted: "Flashcards supprimées", pickSubject: "Choisissez une matière",
+    reviewedAll: "Révisées : toutes", reviewedYes: "Seulement révisées", reviewedNo: "Seulement non révisées",
+    flashSession: "Flash Session", allFem: "Toutes", none: "Aucun",
+    onlyThisItem: "Seulement cet élément (sans niveaux inférieurs)",
+    subtopic: "Sous-sujet / sous-élément", pickTopic: "Choisissez un sujet", noLevels: "Aucun niveau inférieur", all: "Tous",
+    clear: "Effacer", mapLimit: "Choisissez au maximum 60 flashcards pour la carte mentale.",
+    move: "Déplacer", moveTitle: "Déplacer vers une autre matière/sujet", orderOptional: "Ordre (facultatif)",
+    targetSubject: "Matière de destination", selectSubject: "Choisissez la matière",
+    generalCreate: "Général (créer si absent)",
+    cancel: "Annuler", moving: "Déplacement…", moveBtn: "Déplacer",
+    newTopic: "Nouveau sujet", creating: "Création…", create: "Créer",
+    linkedNote: "Note liée", subject: "Matière",
+    generatedAt: "Généré le", page: "Page", of: "sur",
+    topicNameRequired: "Indiquez le nom du sujet", addBtn: "Ajouter",
+    selectAll: "Tout sélectionner", unselectAll: "Tout désélectionner",
+    genMindMap: "Générer une carte mentale", favorite: "Favori", moveTo: "Déplacer vers une autre matière/sujet",
+    moveMany: (n) => `Déplacer ${n} flashcards`, moveOne: "Déplacer la flashcard",
+    selectedCount: (n) => (n === 1 ? "flashcard sélectionnée" : "flashcards sélectionnées"),
+    targetTopic: "Sujet / sous-sujet de destination", targetTopicHint: "(facultatif — si vide, nous utilisons « Général »)",
+  },
+  settings: {
+    tgAlerts: "Alertes Telegram", tgAlertsHint: "Envoyer les rappels de révision dans votre conversation liée.",
+    telegram: "Telegram", telegramDescription: "Recevez des rappels automatiques de révision sur Telegram.",
+    linked: "Compte associé", linkedSuccess: "Telegram associé !", unlinkedSuccess: "Telegram dissocié", testSend: "Tester l’envoi", testSent: "Message envoyé ! Consultez Telegram.", sendFailed: "Impossible d’envoyer le message. Réessayez.",
+    connectBtn: "Connecter mon Telegram", howTitle: "Comment ça marche",
+    mobileTab: "Sur le téléphone", pcTab: "Sur l’ordinateur",
+    mobileS1: "Touchez le bouton « Ouvrir Telegram » ci-dessous.",
+    mobileS2: "L’application Telegram s’ouvre toute seule, directement dans la conversation FlashPilot.",
+    mobileS3: "Touchez « Démarrer », le bouton bleu en bas de l’écran. C’est terminé !",
+    pcS1: "Pointez l’appareil photo de votre téléphone vers le code ci-contre.",
+    pcS2: "Touchez le lien qui apparaît — Telegram s’ouvre dans la conversation FlashPilot.",
+    pcS3: "Touchez « Démarrer ». C’est terminé ! Si vous préférez, utilisez le bouton « Ouvrir Telegram » pour connecter depuis cet ordinateur.",
+    noTyping: "Vous n’avez aucun code à saisir — il voyage caché dans le lien.",
+    openWeb: "Ouvrir dans Telegram Web (navigateur)",
+    waitingConfirmation: "En attente de la confirmation de Telegram…", manualOption: "Vous préférez envoyer le code manuellement ?", manualHint: "Copiez ce code et envoyez-le dans la conversation FlashPilot sur Telegram.",
+    yourCode: "Code d’association", codeCopied: "Code copié", copyCode: "Copier le code",
+    generating: "Génération…",
+    unlink: "Dissocier", validFor: (m) => `Valable ${m} min. En attente de la liaison…`,
+    openTelegram: "Ouvrir Telegram", cancel: "Annuler",
+  },
+};
+
+const it: ScreenCopy = {
+  notes: {
+    image: "Immagine", video: "Video",
+    contentAdded: "Contenuto aggiunto", noPrevious: "Non esiste una versione precedente.", formatUndone: "Formattazione annullata",
+    linkedFlashcard: "Flashcard collegata",
+    narrate: "Leggi la nota ad alta voce", genMindMap: "Genera una mappa mentale di questa nota con PilotAI",
+    aiFormat: "Uniforma titoli e impaginazione con PilotAI", undoFormat: "Torna al testo prima della formattazione",
+    openVideo: "Apri il video", openMindMap: "Apri la mappa mentale", openImage: "Apri l'immagine",
+    fromFlashcard: "proveniente da una flashcard",
+    addMedia: "Aggiungi immagine o video", addMediaTitle: "Aggiungi un'immagine o un video a questa nota",
+    newNote: "Crea una nuova nota vuota", bulkFormat: "Formatta più note insieme con PilotAI",
+    apostila: "Genera un fascicolo PDF con le note",
+    allNotes: "Mostra tutte le note, senza filtro di categoria",
+    noCategory: "Mostra solo le note senza categoria",
+    myCategories: "Categorie create da te, fuori dalla struttura delle materie",
+    files: "File", all: "Tutti",
+    syncTitle: "Sincronizzare le flashcard?",
+    syncDescSubject: "Le flashcard saranno assegnate alla materia corrispondente.",
+    syncDescTopic: "Le flashcard saranno assegnate all'argomento corrispondente.",
+    subject: "Materia", topic: "Argomento",
+    unlink: "Scollega (mantiene il contenuto)",
+    unlinkConfirm: "Scollegare questa categoria? Il contenuto resta e passa a «Le mie categorie».",
+    linkTo: "Collega a materia/argomento…",
+    categoryLinked: "Categoria collegata — tutto il contenuto è stato mantenuto",
+    subjectCreated: "Materia creata — categoria collegata, contenuto mantenuto",
+    topicCreated: "Argomento creato — categoria collegata, contenuto mantenuto",
+    createNew: "Crea nuovo (la categoria diventa lo specchio ufficiale)",
+    createAsSubject: "Crea come materia (radice)", createInside: "Crea come argomento dentro…",
+    linkExisting: "Oppure collega a una materia/argomento esistente…",
+    loading: "Caricamento…", nothingFound: "Nessun risultato",
+    cancel: "Annulla", addContent: "Aggiungi contenuto",
+    imageTitle: "Titolo dell'immagine", videoTitle: "Titolo del video",
+    bulkFormatBtn: "Formatta in blocco", apostilaBtn: "Fascicolo", myCategoriesLabel: "Le mie categorie",
+    genMindMapBtn: "Genera mappa mentale", aiFormatBtn: "Formatta con PilotAI", undoBtn: "Annulla",
+    empty: "Vuoto", sync: "Sincronizza", syncing: "Sincronizzazione…",
+  },
+  fc: {
+    pickSubjectFirst: "Scegli prima una materia", notAuthenticated: "Non autenticato",
+    orderSaveFail: "Non è stato possibile salvare il nuovo ordine.",
+    deleted: "Flashcard eliminate", pickSubject: "Scegli una materia",
+    reviewedAll: "Riviste: tutte", reviewedYes: "Solo riviste", reviewedNo: "Solo non riviste",
+    flashSession: "Flash Session", allFem: "Tutte", none: "Nessuno",
+    onlyThisItem: "Solo questo elemento (senza livelli inferiori)",
+    subtopic: "Sottoargomento / sottoelemento", pickTopic: "Scegli un argomento", noLevels: "Nessun livello inferiore", all: "Tutti",
+    clear: "Pulisci", mapLimit: "Scegli al massimo 60 flashcard per la mappa mentale.",
+    move: "Sposta", moveTitle: "Sposta in un'altra materia/argomento", orderOptional: "Ordine (facoltativo)",
+    targetSubject: "Materia di destinazione", selectSubject: "Scegli la materia",
+    generalCreate: "Generale (crea se non esiste)",
+    cancel: "Annulla", moving: "Spostamento…", moveBtn: "Sposta",
+    newTopic: "Nuovo argomento", creating: "Creazione…", create: "Crea",
+    linkedNote: "Nota collegata", subject: "Materia",
+    generatedAt: "Generato il", page: "Pagina", of: "di",
+    topicNameRequired: "Indica il nome dell'argomento", addBtn: "Aggiungi",
+    selectAll: "Seleziona tutto", unselectAll: "Deseleziona tutto",
+    genMindMap: "Genera mappa mentale", favorite: "Preferito", moveTo: "Sposta in un'altra materia/argomento",
+    moveMany: (n) => `Sposta ${n} flashcard`, moveOne: "Sposta flashcard",
+    selectedCount: (n) => (n === 1 ? "flashcard selezionata" : "flashcard selezionate"),
+    targetTopic: "Argomento / sottoargomento di destinazione", targetTopicHint: "(facoltativo — se vuoto usiamo \"Generale\")",
+  },
+  settings: {
+    tgAlerts: "Avvisi su Telegram", tgAlertsHint: "Invia i promemoria di revisione nella chat collegata.",
+    telegram: "Telegram", telegramDescription: "Ricevi promemoria automatici di ripasso su Telegram.",
+    linked: "Account collegato", linkedSuccess: "Telegram collegato!", unlinkedSuccess: "Telegram scollegato", testSend: "Prova invio", testSent: "Messaggio inviato! Controlla Telegram.", sendFailed: "Non è stato possibile inviare il messaggio. Riprova.",
+    connectBtn: "Collega il mio Telegram", howTitle: "Come funziona",
+    mobileTab: "Sul cellulare", pcTab: "Sul computer",
+    mobileS1: "Tocca il pulsante “Apri Telegram” qui sotto.",
+    mobileS2: "L’app Telegram si apre da sola, direttamente nella chat di FlashPilot.",
+    mobileS3: "Tocca “Avvia”, il pulsante blu in fondo allo schermo. Fatto!",
+    pcS1: "Inquadra con la fotocamera del cellulare il codice qui accanto.",
+    pcS2: "Tocca il link che appare — Telegram si apre nella chat di FlashPilot.",
+    pcS3: "Tocca “Avvia”. Fatto! Se preferisci, usa il pulsante “Apri Telegram” per collegarti da questo computer.",
+    noTyping: "Non devi digitare nessun codice — viaggia nascosto nel link.",
+    openWeb: "Apri in Telegram Web (browser)",
+    waitingConfirmation: "In attesa della conferma da Telegram…", manualOption: "Preferisci inviare il codice manualmente?", manualHint: "Copia questo codice e invialo nella chat di FlashPilot su Telegram.",
+    yourCode: "Codice di collegamento", codeCopied: "Codice copiato", copyCode: "Copia codice",
+    generating: "Generazione…",
+    unlink: "Scollega", validFor: (m) => `Valido per ${m} min. In attesa del collegamento…`,
+    openTelegram: "Apri Telegram", cancel: "Annulla",
+  },
+};
+
+const de: ScreenCopy = {
+  notes: {
+    image: "Bild", video: "Video",
+    contentAdded: "Inhalt hinzugefügt", noPrevious: "Es gibt keine frühere Version.", formatUndone: "Formatierung rückgängig gemacht",
+    linkedFlashcard: "Verknüpfte Lernkarte",
+    narrate: "Notiz vorlesen", genMindMap: "Mindmap aus dieser Notiz mit PilotAI erzeugen",
+    aiFormat: "Überschriften und Layout mit PilotAI vereinheitlichen", undoFormat: "Zurück zum Text vor der Formatierung",
+    openVideo: "Video öffnen", openMindMap: "Mindmap öffnen", openImage: "Bild öffnen",
+    fromFlashcard: "aus einer Lernkarte",
+    addMedia: "Bild oder Video hinzufügen", addMediaTitle: "Bild oder Video zu dieser Notiz hinzufügen",
+    newNote: "Neue leere Notiz erstellen", bulkFormat: "Mehrere Notizen gleichzeitig mit PilotAI formatieren",
+    apostila: "PDF-Skript aus den Notizen erzeugen",
+    allNotes: "Alle Notizen anzeigen, ohne Kategoriefilter",
+    noCategory: "Nur Notizen ohne Kategorie anzeigen",
+    myCategories: "Von dir erstellte Kategorien, außerhalb der Fächerstruktur",
+    files: "Dateien", all: "Alle",
+    syncTitle: "Lernkarten synchronisieren?",
+    syncDescSubject: "Die Lernkarten werden dem passenden Fach zugeordnet.",
+    syncDescTopic: "Die Lernkarten werden dem passenden Thema zugeordnet.",
+    subject: "Fach", topic: "Thema",
+    unlink: "Verknüpfung lösen (Inhalt bleibt)",
+    unlinkConfirm: "Verknüpfung dieser Kategorie lösen? Der Inhalt bleibt und wandert zu „Meine Kategorien“.",
+    linkTo: "Mit Fach/Thema verknüpfen…",
+    categoryLinked: "Kategorie verknüpft — der gesamte Inhalt blieb erhalten",
+    subjectCreated: "Fach erstellt — Kategorie verknüpft, Inhalt erhalten",
+    topicCreated: "Thema erstellt — Kategorie verknüpft, Inhalt erhalten",
+    createNew: "Neu erstellen (die Kategorie wird das offizielle Spiegelbild)",
+    createAsSubject: "Als Fach erstellen (Wurzel)", createInside: "Als Thema erstellen in…",
+    linkExisting: "Oder mit bestehendem Fach/Thema verknüpfen…",
+    loading: "Wird geladen…", nothingFound: "Nichts gefunden",
+    cancel: "Abbrechen", addContent: "Inhalt hinzufügen",
+    imageTitle: "Bildtitel", videoTitle: "Videotitel",
+    bulkFormatBtn: "Stapelformatierung", apostilaBtn: "Skript", myCategoriesLabel: "Meine Kategorien",
+    genMindMapBtn: "Mindmap erstellen", aiFormatBtn: "Mit PilotAI formatieren", undoBtn: "Rückgängig",
+    empty: "Leer", sync: "Synchronisieren", syncing: "Synchronisierung…",
+  },
+  fc: {
+    pickSubjectFirst: "Wähle zuerst ein Fach", notAuthenticated: "Nicht angemeldet",
+    orderSaveFail: "Die neue Reihenfolge konnte nicht gespeichert werden.",
+    deleted: "Lernkarten gelöscht", pickSubject: "Wähle ein Fach",
+    reviewedAll: "Wiederholt: alle", reviewedYes: "Nur wiederholte", reviewedNo: "Nur nicht wiederholte",
+    flashSession: "Flash Session", allFem: "Alle", none: "Keine",
+    onlyThisItem: "Nur dieses Element (ohne untere Ebenen)",
+    subtopic: "Unterthema / Unterpunkt", pickTopic: "Thema wählen", noLevels: "Keine unteren Ebenen", all: "Alle",
+    clear: "Leeren", mapLimit: "Wähle höchstens 60 Lernkarten für die Mindmap.",
+    move: "Verschieben", moveTitle: "In ein anderes Fach/Thema verschieben", orderOptional: "Reihenfolge (optional)",
+    targetSubject: "Zielfach", selectSubject: "Fach auswählen",
+    generalCreate: "Allgemein (anlegen, falls nicht vorhanden)",
+    cancel: "Abbrechen", moving: "Wird verschoben…", moveBtn: "Verschieben",
+    newTopic: "Neues Thema", creating: "Wird erstellt…", create: "Erstellen",
+    linkedNote: "Verknüpfte Notiz", subject: "Fach",
+    generatedAt: "Erstellt am", page: "Seite", of: "von",
+    topicNameRequired: "Themennamen eingeben", addBtn: "Hinzufügen",
+    selectAll: "Alle auswählen", unselectAll: "Auswahl aufheben",
+    genMindMap: "Mindmap erstellen", favorite: "Favorit", moveTo: "In ein anderes Fach/Thema verschieben",
+    moveMany: (n) => `${n} Lernkarten verschieben`, moveOne: "Lernkarte verschieben",
+    selectedCount: (n) => (n === 1 ? "Lernkarte ausgewählt" : "Lernkarten ausgewählt"),
+    targetTopic: "Ziel-Thema / Unterthema", targetTopicHint: "(optional — leer bedeutet \"Allgemein\")",
+  },
+  settings: {
+    tgAlerts: "Telegram-Hinweise", tgAlertsHint: "Wiederholungserinnerungen in deinen verknüpften Chat senden.",
+    telegram: "Telegram", telegramDescription: "Erhalte automatische Wiederholungserinnerungen über Telegram.",
+    linked: "Konto verknüpft", linkedSuccess: "Telegram verknüpft!", unlinkedSuccess: "Telegram getrennt", testSend: "Versand testen", testSent: "Nachricht gesendet! Sieh in Telegram nach.", sendFailed: "Die Nachricht konnte nicht gesendet werden. Bitte versuche es erneut.",
+    connectBtn: "Mein Telegram verbinden", howTitle: "So funktioniert es",
+    mobileTab: "Auf dem Handy", pcTab: "Am Computer",
+    mobileS1: "Tippe unten auf die Schaltfläche „Telegram öffnen“.",
+    mobileS2: "Die Telegram-App öffnet sich von selbst, direkt im FlashPilot-Chat.",
+    mobileS3: "Tippe auf „Start“, die blaue Schaltfläche unten auf dem Bildschirm. Fertig!",
+    pcS1: "Richte die Kamera deines Handys auf den Code nebenan.",
+    pcS2: "Tippe auf den angezeigten Link — Telegram öffnet sich im FlashPilot-Chat.",
+    pcS3: "Tippe auf „Start“. Fertig! Alternativ kannst du über die Schaltfläche „Telegram öffnen“ an diesem Computer verbinden.",
+    noTyping: "Du musst keinen Code eingeben — er reist versteckt im Link mit.",
+    openWeb: "In Telegram Web öffnen (Browser)",
+    waitingConfirmation: "Warten auf die Bestätigung von Telegram…", manualOption: "Möchtest du den Code lieber manuell senden?", manualHint: "Kopiere diesen Code und sende ihn im FlashPilot-Chat in Telegram.",
+    yourCode: "Verknüpfungscode", codeCopied: "Code kopiert", copyCode: "Code kopieren",
+    generating: "Wird erzeugt…",
+    unlink: "Trennen", validFor: (m) => `${m} Min. gültig. Warten auf die Verknüpfung…`,
+    openTelegram: "Telegram öffnen", cancel: "Abbrechen",
+  },
+};
+
+const TABLE: Record<string, ScreenCopy> = {
+  pt, "pt-PT": ptPT, en, es, fr, it, de,
+};
+
+export function screenCopy(lang: Lang | string): ScreenCopy {
+  return TABLE[String(lang)] ?? en;
+}
+
+/** Base em inglês para o overlay dos idiomas extras e para o tradutor automático. */
+export const SCREENS_EN: ScreenCopy = en;
+
+export function useScreenT(): ScreenCopy {
+  const { lang, extLang } = useLang();
+  const od = useOverlayD();
+  if (extLang && od) return applyDictOverlay(en, od, "screens");
+  return screenCopy(lang);
+}

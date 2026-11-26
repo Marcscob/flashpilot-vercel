@@ -1,0 +1,2 @@
+ALTER TABLE public.note_media DROP CONSTRAINT IF EXISTS note_media_kind_check;
+ALTER TABLE public.note_media ADD CONSTRAINT note_media_kind_check CHECK (kind = ANY (ARRAY['image'::text, 'video'::text, 'mindmap'::text]));

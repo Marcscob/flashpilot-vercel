@@ -1,0 +1,29 @@
+name: Trial nudge daily
+
+# Dispara diariamente a régua de e-mails do período de teste de 15 dias
+# (dia 9 e dia 14), chamando a rota /api/public/hooks/trial-nudge-daily.
+# Requer o segredo CRON_SECRET configurado em Settings > Secrets and
+# variables > Actions, com o MESMO valor usado na variável de ambiente
+# CRON_SECRET do deploy em produção (Lovable Cloud).
+
+on:
+  schedule:
+    # 09:00 America/Sao_Paulo (UTC-3) = 12:00 UTC
+    - cron: "0 12 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  trigger-trial-nudge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call trial-nudge-daily hook
+        run: |
+          http_code=$(curl -s -o /tmp/response.json -w "%{http_code}" \
+            -X POST "https://flashpilot.net/api/public/hooks/trial-nudge-daily" \
+            -H "x-cron-secret: ${{ secrets.CRON_SECRET }}")
+          echo "HTTP status: $http_code"
+          cat /tmp/response.json
+          if [ "$http_code" -lt 200 ] || [ "$http_code" -ge 300 ]; then
+            echo "Falha ao chamar o hook de régua do trial (status $http_code)"
+            exit 1
+          fi

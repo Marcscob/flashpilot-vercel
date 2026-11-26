@@ -1,0 +1,1 @@
+ALTER TABLE public.notes ADD COLUMN IF NOT EXISTS content_html_backup text;

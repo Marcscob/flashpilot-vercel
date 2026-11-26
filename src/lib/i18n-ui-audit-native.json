@@ -1,0 +1,3054 @@
+{
+  "Original": [
+    "Original",
+    "Original",
+    "Originale",
+    "Original",
+    "Original"
+  ],
+  "Padronizado": [
+    "Estandarizado",
+    "Standardisé",
+    "Standardizzato",
+    "Standardisiert",
+    "Normalizado"
+  ],
+  "Frente": [
+    "Anverso",
+    "Recto",
+    "Frontale",
+    "Vorderseite",
+    "Frente"
+  ],
+  "Português (Brasil)": [
+    "Portugués (Brasil)",
+    "Portugais (Brésil)",
+    "Portoghese (Brasile)",
+    "Portugiesisch (Brasilien)",
+    "Português (Brasil)"
+  ],
+  "Diminuir fonte": [
+    "Reducir tamaño de fuente",
+    "Diminuer la taille de la police",
+    "Riduci dimensione carattere",
+    "Schriftgröße verkleinern",
+    "Diminuir tamanho da letra"
+  ],
+  "Aumentar fonte": [
+    "Aumentar tamaño de fuente",
+    "Augmenter la taille de la police",
+    "Aumenta dimensione carattere",
+    "Schriftgröße vergrößern",
+    "Aumentar tamanho da letra"
+  ],
+  "Controles do flashcard": [
+    "Controles de tarjetas",
+    "Contrôles de carte mémoire",
+    "Controlli flashcard",
+    "Karteikarten-Steuerung",
+    "Controlos de flashcards"
+  ],
+  "Diminuir zoom": [
+    "Alejar",
+    "Dézoomer",
+    "Zoom indietro",
+    "Herauszoomen",
+    "Reduzir zoom"
+  ],
+  "Aumentar zoom": [
+    "Acercar",
+    "Zoomer",
+    "Zoom avanti",
+    "Hineinzoomen",
+    "Ampliar zoom"
+  ],
+  "Cor do texto": [
+    "Color de texto",
+    "Couleur du texte",
+    "Colore del testo",
+    "Textfarbe",
+    "Cor do texto"
+  ],
+  "Arrastar para reordenar": [
+    "Arrastrar para reordenar",
+    "Faites glisser pour réorganiser",
+    "Trascina per riordinare",
+    "Zum Sortieren ziehen",
+    "Arrastar para reordenar"
+  ],
+  "Tela cheia": [
+    "Pantalla completa",
+    "Plein écran",
+    "Schermo intero",
+    "Vollbild",
+    "Ecrã completo"
+  ],
+  "Reproduzir": [
+    "Reproducir",
+    "Lire",
+    "Riproduci",
+    "Abspielen",
+    "Reproduzir"
+  ],
+  "Reproduzir/pausar": [
+    "Reproducir/Pausar",
+    "Lire/Pause",
+    "Riproduci/Pausa",
+    "Wiedergabe/Pause",
+    "Reproduzir/Pausa"
+  ],
+  "Som": [
+    "Sonido",
+    "Son",
+    "Audio",
+    "Ton",
+    "Som"
+  ],
+  "Posição do vídeo": [
+    "Posición del vídeo",
+    "Position dans la vidéo",
+    "Posizione del video",
+    "Videoposition",
+    "Posição do vídeo"
+  ],
+  "Fechar TV": [
+    "Cerrar TV",
+    "Fermer TV",
+    "Chiudi TV",
+    "FlashPilot-TV schließen",
+    "Fechar TV"
+  ],
+  "Transcrição": [
+    "Transcripción",
+    "Transcription",
+    "Trascrizione",
+    "Transkript",
+    "Transcrição"
+  ],
+  "Assistir na FlashPilot-TV": [
+    "Ver en FlashPilot-TV",
+    "Regarder sur FlashPilot-TV",
+    "Guarda su FlashPilot-TV",
+    "Auf FlashPilot-TV ansehen",
+    "Ver na FlashPilot-TV"
+  ],
+  "A voz desta simulação é a do navegador; na versão real será a voz feminina do PilotAI.": [
+    "Esta demo usa la voz de tu navegador; la versión completa utiliza la voz femenina de PilotAI.",
+    "Cette démo utilise la voix de votre navigateur ; la version complète utilise la voix féminine de PilotAI.",
+    "Questa demo usa la voce del tuo browser; la versione completa usa la voce femminile di PilotAI.",
+    "Diese Demo nutzt die Stimme Ihres Browsers; die Vollversion nutzt die weibliche Stimme von PilotAI.",
+    "Esta demonstração utiliza a voz do seu navegador; a versão completa utiliza a voz feminina da PilotAI."
+  ],
+  "Salvar como anotação do vídeo": [
+    "Guardar como nota de video",
+    "Enregistrer comme note vidéo",
+    "Salva come nota video",
+    "Als Videonotiz speichern",
+    "Guardar como nota de vídeo"
+  ],
+  "Toque para ativar o som": [
+    "Toca para activar el sonido",
+    "Appuyez pour activer le son",
+    "Tocca per attivare l'audio",
+    "Tippen, um Ton einzuschalten",
+    "Toque para ligar o som"
+  ],
+  "Lista numerada": [
+    "Lista numerada",
+    "Liste numérotée",
+    "Elenco numerato",
+    "Nummerierte Liste",
+    "Lista numerada"
+  ],
+  "Linha horizontal": [
+    "Línea horizontal",
+    "Ligne horizontale",
+    "Linea orizzontale",
+    "Horizontale Linie",
+    "Linha horizontal"
+  ],
+  "Inserir tabela": [
+    "Insertar tabla",
+    "Insérer un tableau",
+    "Inserisci tabella",
+    "Tabelle einfügen",
+    "Inserir tabela"
+  ],
+  "Você disse: {spoken}": [
+    "Dijiste: {spoken}",
+    "Vous avez dit : {spoken}",
+    "Hai detto: {spoken}",
+    "Sie sagten: {spoken}",
+    "Disse: {spoken}"
+  ],
+  "{score}% de acerto — {feedback}": [
+    "{score}% correcto — {feedback}",
+    "{score}% correct — {feedback}",
+    "{score}% corretto — {feedback}",
+    "{score}% richtig — {feedback}",
+    "{score}% correto — {feedback}"
+  ],
+  "Forma correta:": [
+    "Forma correcta:",
+    "Forme correcte :",
+    "Forma corretta:",
+    "Richtige Form:",
+    "Forma correta:"
+  ],
+  "Mais natural:": [
+    "Más natural:",
+    "Plus naturel :",
+    "Più naturale:",
+    "Natürlicher:",
+    "Mais natural:"
+  ],
+  "Narrar forma correta": [
+    "Leer la forma correcta en voz alta",
+    "Lire la forme correcte à voix haute",
+    "Leggi la forma corretta ad alta voce",
+    "Richtige Form vorlesen",
+    "Ler a forma correta em voz alta"
+  ],
+  "Escrevendo…": [
+    "Escribiendo…",
+    "Écriture...",
+    "Scrittura in corso...",
+    "Schreibe…",
+    "A escrever…"
+  ],
+  "Herdado da conversa; pode ser alterado.": [
+    "Heredado de la conversación; puedes cambiarlo.",
+    "Hérité de la conversation ; vous pouvez le modifier.",
+    "Ereditato dalla conversazione; puoi modificarlo.",
+    "Aus dem Gespräch übernommen; kann geändert werden.",
+    "Herdado da conversa; pode alterá-lo."
+  ],
+  "Isto substituirá a anotação atual de {n} flashcards.": [
+    "Esto reemplazará la nota actual en {n} tarjetas.",
+    "Ceci remplacera la note actuelle sur {n} cartes mémoire.",
+    "Questo sostituirà la nota corrente su {n} flashcard.",
+    "Dies ersetzt die aktuelle Notiz auf {n} Karteikarten.",
+    "Isto irá substituir a nota atual em {n} flashcards."
+  ],
+  "Isto substituirá os links de vídeo atuais de {n} flashcards.": [
+    "Esto reemplazará los enlaces de video actuales en {n} tarjetas.",
+    "Ceci remplacera les liens vidéo actuels sur {n} cartes mémoire.",
+    "Questo sostituirà i link video correnti su {n} flashcard.",
+    "Dies ersetzt die aktuellen Videolinks auf {n} Karteikarten.",
+    "Isto irá substituir as hiperligações de vídeo atuais em {n} flashcards."
+  ],
+  "Isto substituirá a imagem atual de {n} flashcards.": [
+    "Esto reemplazará la imagen actual en {n} tarjetas.",
+    "Ceci remplacera l'image actuelle sur {n} cartes mémoire.",
+    "Questo sostituirà l'immagine corrente su {n} flashcard.",
+    "Dies ersetzt das aktuelle Bild auf {n} Karteikarten.",
+    "Isto irá substituir a imagem atual em {n} flashcards."
+  ],
+  "Aplicar aos {n}": [
+    "Aplicar a {n}",
+    "Appliquer à {n}",
+    "Applica a {n}",
+    "Auf {n} anwenden",
+    "Aplicar a {n}"
+  ],
+  "{n} nota(s)": [
+    "{n} nota(s)",
+    "{n} note(s)",
+    "{n} nota(e)",
+    "{n} Notiz(en)",
+    "{n} nota(s)"
+  ],
+  "{done}/{total} processadas · {ok} ok · {fail} com erro": [
+    "{done}/{total} procesado · {ok} exitoso · {fail} con errores",
+    "{done}/{total} traité · {ok} réussi · {fail} avec des erreurs",
+    "{done}/{total} elaborati · {ok} riusciti · {fail} con errori",
+    "{done}/{total} verarbeitet · {ok} erfolgreich · {fail} mit Fehlern",
+    "{done}/{total} processado · {ok} com sucesso · {fail} com erros"
+  ],
+  "{count} flashcard(s) selecionado(s) como fonte.": [
+    "{count} tarjeta(s) seleccionada(s) como fuente.",
+    "{count} carte(s) mémoire sélectionnée(s) comme source.",
+    "{count} flashcard selezionata come sorgente.",
+    "{count} Karteikarte(n) als Quelle ausgewählt.",
+    "{count} flashcard(s) selecionado(s) como origem."
+  ],
+  "O YouTube aplicou velocidade {rate}x": [
+    "YouTube aplicó una velocidad de reproducción de {rate}x",
+    "YouTube a appliqué une vitesse de lecture de {rate}x",
+    "YouTube ha applicato una velocità di riproduzione di {rate}x",
+    "YouTube hat eine Wiedergabegeschwindigkeit von {rate}x angewendet",
+    "O YouTube aplicou uma velocidade de reprodução de {rate}x"
+  ],
+  "Navegação estrutural": [
+    "Ruta de navegación",
+    "Fil d'Ariane",
+    "Percorso",
+    "Breadcrumb",
+    "Navegação"
+  ],
+  "Mais": [
+    "Más",
+    "Plus",
+    "Altro",
+    "Mehr",
+    "Mais"
+  ],
+  "Slide anterior": [
+    "Diapositiva anterior",
+    "Diapositive précédente",
+    "Diapositiva precedente",
+    "Vorherige Folie",
+    "Diapositivo anterior"
+  ],
+  "Próximo slide": [
+    "Siguiente diapositiva",
+    "Diapositive suivante",
+    "Diapositiva successiva",
+    "Nächste Folie",
+    "Diapositivo seguinte"
+  ],
+  "Paginação": [
+    "Paginación",
+    "Pagination",
+    "Paginazione",
+    "Seitennavigation",
+    "Paginação"
+  ],
+  "Ir para página anterior": [
+    "Ir a la página anterior",
+    "Aller à la page précédente",
+    "Vai alla pagina precedente",
+    "Zur vorherigen Seite",
+    "Ir para a página anterior"
+  ],
+  "Página anterior": [
+    "Anterior",
+    "Précédent",
+    "Precedente",
+    "Zurück",
+    "Anterior"
+  ],
+  "Ir para próxima página": [
+    "Ir a la página siguiente",
+    "Aller à la page suivante",
+    "Vai alla pagina successiva",
+    "Zur nächsten Seite",
+    "Ir para a página seguinte"
+  ],
+  "Próxima página": [
+    "Siguiente",
+    "Suivant",
+    "Successivo",
+    "Weiter",
+    "Seguinte"
+  ],
+  "Mais páginas": [
+    "Más páginas",
+    "Plus de pages",
+    "Altre pagine",
+    "Weitere Seiten",
+    "Mais páginas"
+  ],
+  "Barra lateral": [
+    "Barra lateral",
+    "Barre latérale",
+    "Barra laterale",
+    "Seitenleiste",
+    "Barra lateral"
+  ],
+  "Exibe a barra lateral móvel.": [
+    "Muestra la barra lateral móvil.",
+    "Affiche la barre latérale mobile.",
+    "Mostra la barra laterale mobile.",
+    "Zeigt die mobile Seitenleiste an.",
+    "Apresenta a barra lateral móvel."
+  ],
+  "Alternar barra lateral": [
+    "Alternar barra lateral",
+    "Basculer la barre latérale",
+    "Attiva/disattiva barra laterale",
+    "Seitenleiste umschalten",
+    "Alternar barra lateral"
+  ],
+  "Pendente": [
+    "Pendiente",
+    "En attente",
+    "In sospeso",
+    "Ausstehend",
+    "Pendente"
+  ],
+  "Aprovado": [
+    "Aprobado",
+    "Approuvé",
+    "Approvato",
+    "Genehmigt",
+    "Aprovado"
+  ],
+  "Rejeitado": [
+    "Rechazado",
+    "Rejeté",
+    "Respinto",
+    "Abgelehnt",
+    "Rejeitado"
+  ],
+  "Curadoria de matérias oficiais": [
+    "Curaduría oficial de temas",
+    "Curation officielle du sujet",
+    "Curatela ufficiale degli argomenti",
+    "Offizielle Themen-Kuration",
+    "Curadoria de assuntos oficial"
+  ],
+  "Auditar com o PilotAI": [
+    "Auditoría con PilotAI",
+    "Auditer avec PilotAI",
+    "Revisione con PilotAI",
+    "Audit mit PilotAI",
+    "Auditoria com a PilotAI"
+  ],
+  "Revisão humana obrigatória · Originais preservados · Nenhuma publicação automática": [
+    "Requiere revisión humana · Originales preservados · Sin publicación automática",
+    "Examen humain requis · Originaux préservés · Aucune publication automatique",
+    "Richiesta revisione umana · Originali conservati · Nessuna pubblicazione automatica",
+    "Menschliche Überprüfung erforderlich · Originale bleiben erhalten · Keine automatische Veröffentlichung",
+    "Revisão humana necessária · Originais preservados · Sem publicação automática"
+  ],
+  "Reescrever livros ou doutrina não elimina direitos autorais. Confirme origem, autorização do autor e direitos comerciais antes de aprovar.": [
+    "Reescribir libros o doctrina no elimina los derechos de autor. Confirma la fuente, el permiso del autor y los derechos comerciales antes de aprobar.",
+    "Réécrire des livres ou des doctrines ne supprime pas le droit d'auteur. Confirmez la source, l'autorisation de l'auteur et les droits commerciaux avant d'approuver.",
+    "La riscrittura di libri o dottrine non rimuove il copyright. Verifica la fonte, il permesso dell'autore e i diritti commerciali prima di approvare.",
+    "Das Umschreiben von Büchern oder Lehrmaterialien entfernt kein Urheberrecht. Überprüfen Sie vor der Genehmigung die Quelle, die Erlaubnis des Autors und die kommerziellen Rechte.",
+    "Reescrever livros ou doutrina não elimina os direitos de autor. Confirme a fonte, a autorização do autor e os direitos comerciais antes de aprovar."
+  ],
+  "Status da curadoria": [
+    "Estado de curaduría",
+    "Statut de curation",
+    "Stato della curatela",
+    "Kurationsstatus",
+    "Estado da curadoria"
+  ],
+  "Não foi possível carregar a curadoria.": [
+    "No se pudo cargar la curaduría.",
+    "Impossible de charger la curation.",
+    "Impossibile caricare la curatela.",
+    "Kuration konnte nicht geladen werden.",
+    "Não foi possível carregar a curadoria."
+  ],
+  "Nenhum material nesta etapa.": [
+    "No hay materiales en esta etapa.",
+    "Aucun matériel à ce stade.",
+    "Nessun materiale in questa fase.",
+    "Keine Materialien in dieser Phase vorhanden.",
+    "Sem materiais nesta fase."
+  ],
+  "{n} candidatos preparados para revisão humana.": [
+    "{n} candidatos preparados para revisión humana.",
+    "{n} candidats préparés pour examen humain.",
+    "{n} candidati preparati per la revisione umana.",
+    "{n} Kandidaten zur manuellen Überprüfung vorbereitet.",
+    "{n} candidatos preparados para revisão humana."
+  ],
+  "Nenhum novo card elegível (mínimo de 3 pessoas diferentes).": [
+    "No hay nuevas tarjetas elegibles (se requieren al menos 3 personas diferentes).",
+    "Aucune nouvelle carte éligible (au moins 3 personnes différentes sont requises).",
+    "Nessuna nuova carta idonea (sono necessarie almeno 3 persone diverse).",
+    "Keine neuen in Frage kommenden Karten (mindestens 3 verschiedene Personen erforderlich).",
+    "Não existem novos cartões elegíveis (são necessárias pelo menos 3 pessoas diferentes)."
+  ],
+  "Falha na auditoria.": [
+    "La auditoría falló.",
+    "Audit échoué.",
+    "Revisione fallita.",
+    "Audit fehlgeschlagen.",
+    "A auditoria falhou."
+  ],
+  "Candidato elegível": [
+    "Candidato elegible",
+    "Candidat éligible",
+    "Candidato idoneo",
+    "Geeigneter Kandidat",
+    "Candidato elegível"
+  ],
+  "Não elegível": [
+    "No elegible",
+    "Non éligible",
+    "Non idoneo",
+    "Nicht geeignet",
+    "Não elegível"
+  ],
+  "Comparar com o original": [
+    "Comparar con el original",
+    "Comparer avec l'original",
+    "Confronta con l'originale",
+    "Mit dem Original vergleichen",
+    "Comparar com o original"
+  ],
+  "Pergunta": [
+    "Pregunta",
+    "Question",
+    "Domanda",
+    "Frage",
+    "Pergunta"
+  ],
+  "Resposta": [
+    "Respuesta",
+    "Réponse",
+    "Risposta",
+    "Antwort",
+    "Resposta"
+  ],
+  "Matéria": [
+    "Asunto",
+    "Sujet",
+    "Argomento",
+    "Fach",
+    "Assunto"
+  ],
+  "Assunto": [
+    "Tema",
+    "Thème",
+    "Argomento principale",
+    "Thema",
+    "Tópico"
+  ],
+  "Tópico": [
+    "Subtema",
+    "Sous-thème",
+    "Sottoargomento",
+    "Unterthema",
+    "Subtópico"
+  ],
+  "Idioma": [
+    "Idioma",
+    "Langue",
+    "Lingua",
+    "Sprache",
+    "Idioma"
+  ],
+  "Referência": [
+    "Referencia",
+    "Référence",
+    "Riferimento",
+    "Referenz",
+    "Referência"
+  ],
+  "Parecer humano": [
+    "Revisión humana",
+    "Examen humain",
+    "Revisione umana",
+    "Manuelle Überprüfung",
+    "Revisão humana"
+  ],
+  "Origem e comprovação de direitos": [
+    "Fuente y prueba de derechos",
+    "Source et preuve de droits",
+    "Fonte e prova dei diritti",
+    "Quelle und Rechtenachweis",
+    "Fonte e prova de direitos"
+  ],
+  "Confirmei a precisão, a ausência de dados pessoais e os direitos/autorização necessários para uso comercial.": [
+    "Confirmo que el contenido es preciso, no contiene datos personales y cuenta con los derechos/permisos necesarios para uso comercial.",
+    "Je confirme que le contenu est exact, ne contient aucune donnée personnelle et dispose des droits/autorisations requis pour un usage commercial.",
+    "Confermo che il contenuto è accurato, non contiene dati personali e dispone dei diritti/permessi richiesti per l'uso commerciale.",
+    "Ich bestätige, dass der Inhalt korrekt ist, keine personenbezogenen Daten enthält und über die erforderlichen Rechte/Erlaubnisse für die kommerzielle Nutzung verfügt.",
+    "Confirmo que o conteúdo é preciso, não contém dados pessoais e possui os direitos/autorização necessários para uso comercial."
+  ],
+  "Salvar revisão": [
+    "Guardar revisión",
+    "Enregistrer l'examen",
+    "Salva revisione",
+    "Überprüfung speichern",
+    "Guardar revisão"
+  ],
+  "Aprovar e incorporar": [
+    "Aprobar e incluir",
+    "Approuver et inclure",
+    "Approva e includi",
+    "Genehmigen und aufnehmen",
+    "Aprovar e incluir"
+  ],
+  "Aprovado e incorporado": [
+    "Aprobado e incluido",
+    "Approuvé et inclus",
+    "Approvato e incluso",
+    "Genehmigt und aufgenommen",
+    "Aprovado e incluído"
+  ],
+  "Versão {version}": [
+    "Versión {version}",
+    "Version {version}",
+    "Versione {version}",
+    "Version {version}",
+    "Versão {version}"
+  ],
+  "Materiais do aluno (anotação, mapa, vídeos) — marque os que entram no card oficial": [
+    "Materiales del estudiante (nota, mapa, videos) — selecciona qué incluir en la tarjeta oficial",
+    "Matériel étudiant (note, carte, vidéos) — sélectionnez ce qu'il faut inclure dans la carte officielle",
+    "Materiali dello studente (nota, mappa, video) — seleziona cosa includere nella carta ufficiale",
+    "Schülermaterialien (Notiz, Karte, Videos) — auswählen, was in die offizielle Karte aufgenommen werden soll",
+    "Materiais do aluno (nota, mapa, vídeos) — selecione o que incluir no cartão oficial"
+  ],
+  "Não foi possível carregar os materiais.": [
+    "No se pudieron cargar los materiales.",
+    "Impossible de charger le matériel.",
+    "Impossibile caricare i materiali.",
+    "Materialien konnten nicht geladen werden.",
+    "Não foi possível carregar os materiais."
+  ],
+  "Este card não tem materiais anexados.": [
+    "Esta tarjeta no tiene materiales adjuntos.",
+    "Cette carte n'a aucun matériel attaché.",
+    "Questa carta non ha materiali allegati.",
+    "Diese Karte hat keine angehängten Materialien.",
+    "Este cartão não tem materiais anexados."
+  ],
+  "Anotação: {title}": [
+    "Nota: {title}",
+    "Note : {title}",
+    "Nota: {title}",
+    "Notiz: {title}",
+    "Nota: {title}"
+  ],
+  "Mapa mental / imagem": [
+    "Mapa mental / imagen",
+    "Carte mentale / image",
+    "Mappa mentale / immagine",
+    "Mindmap / Bild",
+    "Mapa mental / imagem"
+  ],
+  "Mapa mental do aluno": [
+    "Mapa mental del estudiante",
+    "Carte mentale étudiant",
+    "Mappa mentale dello studente",
+    "Schüler-Mindmap",
+    "Mapa mental do aluno"
+  ],
+  "Links de vídeo": [
+    "Enlaces de video",
+    "Liens vidéo",
+    "Link video",
+    "Videolinks",
+    "Hiperligações de vídeo"
+  ],
+  "Vídeo FlashPilot-TV ({style} · {lang})": [
+    "Video de FlashPilot-TV ({style} · {lang})",
+    "Vidéo FlashPilot-TV ({style} · {lang})",
+    "Video FlashPilot-TV ({style} · {lang})",
+    "FlashPilot-TV Video ({style} · {lang})",
+    "Vídeo FlashPilot-TV ({style} · {lang})"
+  ],
+  "Nada é copiado sem marcação. Os itens marcados viram cópias oficiais, somente leitura; o original do aluno fica intacto.": [
+    "Nada se copia a menos que se seleccione. Los elementos seleccionados se convierten en copias oficiales de solo lectura; el original del estudiante permanece sin cambios.",
+    "Rien n'est copié à moins d'être sélectionné. Les éléments sélectionnés deviennent des copies officielles en lecture seule ; l'original de l'étudiant reste inchangé.",
+    "Nulla viene copiato se non selezionato. Gli elementi selezionati diventano copie ufficiali in sola lettura; l'originale dello studente rimane invariato.",
+    "Nichts wird kopiert, wenn es nicht ausgewählt ist. Ausgewählte Elemente werden schreibgeschützte offizielle Kopien; das Original des Schülers bleibt unverändert.",
+    "Nada é copiado a menos que selecionado. Os itens selecionados tornam-se cópias oficiais só de leitura; o original do aluno permanece inalterado."
+  ],
+  "Movimentos dos clientes": [
+    "Actividad del cliente",
+    "Activité client",
+    "Attività cliente",
+    "Kundenaktivität",
+    "Atividade do cliente"
+  ],
+  "Quem comprou, o quê, quanto pagou, validade e reembolsos (acesso revogado). {n} reembolso(s) no total.": [
+    "Compras, productos, montos, vencimientos y reembolsos (acceso revocado). {n} reembolso(s) en total.",
+    "Achats, produits, montants, expiration et remboursements (accès révoqué). {n} remboursement(s) au total.",
+    "Acquisti, prodotti, importi, scadenza e rimborsi (accesso revocato). {n} rimborso(i) in totale.",
+    "Käufe, Produkte, Beträge, Ablauf und Rückerstattungen (Zugriff entzogen). Insgesamt {n} Rückerstattung(en).",
+    "Compras, produtos, valores, validade e reembolsos (acesso revogado). {n} reembolso(s) no total."
+  ],
+  "Buscar nome, e-mail ou produto": [
+    "Buscar por nombre, correo electrónico o producto",
+    "Rechercher nom, e-mail ou produit",
+    "Cerca nome, email o prodotto",
+    "Name, E-Mail oder Produkt suchen",
+    "Pesquisar nome, e-mail ou produto"
+  ],
+  "Carregando…": [
+    "Cargando…",
+    "Chargement...",
+    "Caricamento…",
+    "Lade…",
+    "A carregar…"
+  ],
+  "Não foi possível carregar os movimentos.": [
+    "No se pudo cargar la actividad del cliente.",
+    "Impossible de charger l'activité client.",
+    "Impossibile caricare l'attività del cliente.",
+    "Kundenaktivität konnte nicht geladen werden.",
+    "Não foi possível carregar a atividade do cliente."
+  ],
+  "Nenhum movimento encontrado.": [
+    "No se encontró actividad.",
+    "Aucune activité trouvée.",
+    "Nessuna attività trovata.",
+    "Keine Aktivität gefunden.",
+    "Nenhuma atividade encontrada."
+  ],
+  "Todos": [
+    "Todo",
+    "Tous",
+    "Tutti",
+    "Alle",
+    "Tudo"
+  ],
+  "Ativa": [
+    "Activo",
+    "Actif",
+    "Attivo",
+    "Aktiv",
+    "Ativo"
+  ],
+  "Reembolsada": [
+    "Reembolsado",
+    "Remboursé",
+    "Rimborsato",
+    "Rückerstattet",
+    "Reembolsado"
+  ],
+  "Expirada": [
+    "Vencido",
+    "Expiré",
+    "Scaduto",
+    "Abgelaufen",
+    "Expirado"
+  ],
+  "Cancelada": [
+    "Cancelado",
+    "Annulé",
+    "Annullato",
+    "Storniert",
+    "Cancelado"
+  ],
+  "Reembolso parcial": [
+    "Reembolso parcial",
+    "Remboursement partiel",
+    "Rimborso parziale",
+    "Teilweise rückerstattet",
+    "Reembolso parcial"
+  ],
+  "Conta excluída": [
+    "Cuenta eliminada",
+    "Compte supprimé",
+    "Account eliminato",
+    "Konto gelöscht",
+    "Conta eliminada"
+  ],
+  "Assinatura": [
+    "Suscripción",
+    "Abonnement",
+    "Abbonamento",
+    "Abonnement",
+    "Subscrição"
+  ],
+  "Arquivado": [
+    "Archivado",
+    "Archivé",
+    "Archiviato",
+    "Archiviert",
+    "Arquivado"
+  ],
+  "Cliente": [
+    "Cliente",
+    "Client",
+    "Cliente",
+    "Kunde",
+    "Cliente"
+  ],
+  "Produto": [
+    "Producto",
+    "Produit",
+    "Prodotto",
+    "Produkt",
+    "Produto"
+  ],
+  "Tipo": [
+    "Tipo",
+    "Type",
+    "Tipo",
+    "Typ",
+    "Tipo"
+  ],
+  "Pago": [
+    "Pagado",
+    "Payé",
+    "Pagato",
+    "Bezahlt",
+    "Pago"
+  ],
+  "Compra": [
+    "Compra",
+    "Achat",
+    "Acquisto",
+    "Kauf",
+    "Compra"
+  ],
+  "Expira": [
+    "Vence",
+    "Expire",
+    "Scade il",
+    "Läuft ab",
+    "Expira"
+  ],
+  "Reembolso": [
+    "Reembolso",
+    "Remboursement",
+    "Rimborso",
+    "Rückerstattung",
+    "Reembolso"
+  ],
+  "Situação": [
+    "Estado",
+    "Statut",
+    "Stato",
+    "Status",
+    "Estado"
+  ],
+  "Teste": [
+    "Prueba",
+    "Test",
+    "Test",
+    "Test",
+    "Teste"
+  ],
+  "Esta área é restrita ao AppManager.": [
+    "Esta área está restringida al AppManager.",
+    "Cette zone est réservée à l'AppManager.",
+    "Questa area è riservata all'AppManager.",
+    "Dieser Bereich ist auf den AppManager beschränkt.",
+    "Esta área está restrita ao AppManager."
+  ],
+  "Painel do AppManager": [
+    "Panel del AppManager",
+    "Tableau de bord AppManager",
+    "Dashboard AppManager",
+    "AppManager-Dashboard",
+    "Painel do AppManager"
+  ],
+  "Receita, assinantes, produtos da Loja e o custo real de cada ação do PilotAI.": [
+    "Ingresos, suscriptores, productos de la Tienda y el costo real de cada acción de PilotAI.",
+    "Revenus, abonnés, produits du Store et le coût réel de chaque action PilotAI.",
+    "Ricavi, abbonati, prodotti dello Store e costo effettivo di ogni azione PilotAI.",
+    "Einnahmen, Abonnenten, Store-Produkte und die tatsächlichen Kosten jeder PilotAI-Aktion.",
+    "Receitas, subscritores, produtos da Loja e o custo real de cada ação da PilotAI."
+  ],
+  "Painel do Blog": [
+    "Panel del blog",
+    "Tableau de bord Blog",
+    "Dashboard del blog",
+    "Blog-Dashboard",
+    "Painel do blog"
+  ],
+  "Carregando o painel…": [
+    "Cargando panel…",
+    "Chargement du tableau de bord...",
+    "Caricamento dashboard…",
+    "Dashboard wird geladen…",
+    "A carregar painel…"
+  ],
+  "Custo atualizado.": [
+    "Costo actualizado.",
+    "Coût mis à jour.",
+    "Costo aggiornato.",
+    "Kosten aktualisiert.",
+    "Custo atualizado."
+  ],
+  "Produto atualizado.": [
+    "Producto actualizado.",
+    "Produit mis à jour.",
+    "Prodotto aggiornato.",
+    "Produkt aktualisiert.",
+    "Produto atualizado."
+  ],
+  "Não foi possível salvar.": [
+    "No se pudo guardar.",
+    "Échec de l'enregistrement.",
+    "Impossibile salvare.",
+    "Speichern fehlgeschlagen.",
+    "Não foi possível guardar."
+  ],
+  "Receita total": [
+    "Ingresos totales",
+    "Revenu total",
+    "Entrate totali",
+    "Gesamtumsatz",
+    "Receita total"
+  ],
+  "Receita (30 dias)": [
+    "Ingresos (30 días)",
+    "Revenu (30 jours)",
+    "Entrate (30 giorni)",
+    "Umsatz (30 Tage)",
+    "Receita (30 dias)"
+  ],
+  "Assinantes ativos": [
+    "Suscriptores activos",
+    "Abonnés actifs",
+    "Abbonati attivi",
+    "Aktive Abonnenten",
+    "Subscritores ativos"
+  ],
+  "Pacotes ativos": [
+    "Paquetes activos",
+    "Forfaits actifs",
+    "Pacchetti attivi",
+    "Aktive Pakete",
+    "Pacotes ativos"
+  ],
+  "Transações": [
+    "Transacciones",
+    "Transactions",
+    "Transazioni",
+    "Transaktionen",
+    "Transações"
+  ],
+  "Ações do PilotAI (30 dias)": [
+    "Acciones de PilotAI (30 días)",
+    "Actions PilotAI (30 jours)",
+    "Azioni PilotAI (30 giorni)",
+    "PilotAI-Aktionen (30 Tage)",
+    "Ações do PilotAI (30 dias)"
+  ],
+  "Custo do PilotAI (30 dias)": [
+    "Costo de PilotAI (30 días)",
+    "Coût PilotAI (30 jours)",
+    "Costo PilotAI (30 giorni)",
+    "PilotAI-Kosten (30 Tage)",
+    "Custo do PilotAI (30 dias)"
+  ],
+  "Assinantes por plano": [
+    "Suscriptores por plan",
+    "Abonnés par plan",
+    "Abbonati per piano",
+    "Abonnenten nach Plan",
+    "Subscritores por plano"
+  ],
+  "Custo das ações do PilotAI": [
+    "Costos de acciones de PilotAI",
+    "Coûts des actions PilotAI",
+    "Costi azioni PilotAI",
+    "PilotAI-Aktionskosten",
+    "Custos das ações do PilotAI"
+  ],
+  "O alerta aparece quando o custo real médio passa do custo estimado mais a margem definida.": [
+    "Aparece una alerta cuando el costo real promedio supera el costo estimado más el margen configurado.",
+    "Une alerte apparaît lorsque le coût réel moyen dépasse le coût estimé majoré de la marge configurée.",
+    "Appare un avviso quando il costo effettivo medio supera il costo stimato più il margine configurato.",
+    "Eine Warnung erscheint, wenn die durchschnittlichen tatsächlichen Kosten die geschätzten Kosten zuzüglich der konfigurierten Marge übersteigen.",
+    "Um alerta aparece quando o custo real médio excede o custo estimado mais a margem configurada."
+  ],
+  "margem estourada": [
+    "margen excedido",
+    "marge dépassée",
+    "margine superato",
+    "Marge überschritten",
+    "margem excedida"
+  ],
+  "usos · custo médio": [
+    "usos · costo promedio",
+    "utilisations · coût moyen",
+    "usi · costo medio",
+    "Nutzungen · Durchschnittskosten",
+    "utilizações · custo médio"
+  ],
+  "Real": [
+    "En vivo",
+    "En direct",
+    "Dal vivo",
+    "Live",
+    "Em direto"
+  ],
+  "Ativo": [
+    "Activo",
+    "Actif",
+    "Attivo",
+    "Aktiv",
+    "Ativo"
+  ],
+  "Custo estimado (US$)": [
+    "Costo estimado (US$)",
+    "Coût estimé (US$)",
+    "Costo stimato (US$)",
+    "Geschätzte Kosten (US$)",
+    "Custo estimado (US$)"
+  ],
+  "Margem de alerta (%)": [
+    "Margen de alerta (%)",
+    "Marge d'alerte (%)",
+    "Margine avviso (%)",
+    "Warnmarge (%)",
+    "Margem de alerta (%)"
+  ],
+  "Produtos da Loja": [
+    "Productos de la tienda",
+    "Produits de la boutique",
+    "Prodotti dello Store",
+    "Store-Produkte",
+    "Produtos da Loja"
+  ],
+  "O texto do preço e a ordem podem ser editados aqui. Para criar um produto novo ou mudar o valor cobrado, peça no chat — o valor precisa ser criado também no Paddle.": [
+    "Puedes editar aquí el precio y el orden mostrados. Para añadir un producto o cambiar su precio, pregunta en el chat; el precio también debe estar creado en Paddle.",
+    "Vous pouvez modifier le prix affiché et l'ordre ici. Pour ajouter un produit ou modifier son prix, demandez dans le chat — le prix doit également être créé dans Paddle.",
+    "Puoi modificare il prezzo visualizzato e l'ordine qui. Per aggiungere un prodotto o cambiarne il prezzo, chiedi in chat — il prezzo deve essere creato anche in Paddle.",
+    "Du kannst hier den angezeigten Preis und die Reihenfolge bearbeiten. Um ein Produkt hinzuzufügen oder dessen Preis zu ändern, frage im Chat – der Preis muss auch in Paddle erstellt werden.",
+    "Pode editar o preço apresentado e a ordem aqui. Para adicionar um produto ou alterar o seu preço, peça no chat — o preço também tem de ser criado no Paddle."
+  ],
+  "Preço exibido": [
+    "Precio mostrado",
+    "Prix affiché",
+    "Prezzo visualizzato",
+    "Angezeigter Preis",
+    "Preço apresentado"
+  ],
+  "Matérias na Loja": [
+    "Materias en la tienda",
+    "Sujets dans la boutique",
+    "Argomenti nello Store",
+    "Themen im Store",
+    "Temas na Loja"
+  ],
+  "Marque \"Disponibilizar matéria\" para ela aparecer na Loja para os clientes. Desmarcada, só você a vê aqui. Quem compra passa a ver automaticamente cada melhoria que você fizer no conteúdo.": [
+    "Selecciona \"Hacer disponible la materia\" para mostrarla en la tienda. Si no está marcada, solo tú podrás verla aquí. Los compradores reciben automáticamente cada mejora de contenido que realices.",
+    "Sélectionnez « Rendre le sujet disponible » pour l'afficher dans la boutique. Si cette option n'est pas cochée, vous seul pouvez le voir ici. Les acheteurs reçoivent automatiquement chaque amélioration de contenu que vous apportez.",
+    "Seleziona \"Rendi disponibile l'argomento\" per mostrarlo nello Store. Se deselezionato, solo tu puoi vederlo qui. Gli acquirenti ricevono automaticamente ogni miglioramento dei contenuti che apporti.",
+    "Wähle „Thema verfügbar machen“, um es im Store anzuzeigen. Falls nicht aktiviert, ist es hier nur für dich sichtbar. Käufer erhalten automatisch jede Inhaltsverbesserung, die du vornimmst.",
+    "Selecione \"Disponibilizar tema\" para o mostrar na Loja. Se não estiver selecionado, apenas você o pode ver aqui. Os compradores recebem automaticamente todas as melhorias de conteúdo que fizer."
+  ],
+  "Liga todas as matérias com cards. O preço é automático pela quantidade de cards: até 1.000 → US$ 9,65 · 1.001 a 2.000 → US$ 14,70 · acima de 2.000 → US$ 17,90.": [
+    "Incluye todas las materias con tarjetas. El precio se basa en el número de tarjetas: hasta 1.000 → US$ 9.65 · 1.001–2.000 → US$ 14.70 · más de 2.000 → US$ 17.90.",
+    "Inclut tous les sujets avec des cartes. Le prix est basé sur le nombre de cartes : jusqu'à 1 000 → 9,65 US$ · 1 001–2 000 → 14,70 US$ · plus de 2 000 → 17,90 US$.",
+    "Include tutti gli argomenti con schede. Il prezzo si basa sul numero di schede: fino a 1.000 → 9,65 US$ · 1.001–2.000 → 14,70 US$ · oltre 2.000 → 17,90 US$.",
+    "Enthält alle Themen mit Karten. Der Preis basiert auf der Kartenanzahl: bis 1.000 → 9,65 US$ · 1.001–2.000 → 14,70 US$ · über 2.000 → 17,90 US$.",
+    "Inclui todos os temas com cartões. O preço baseia-se no número de cartões: até 1.000 → US$ 9,65 · 1.001–2.000 → US$ 14,70 · mais de 2.000 → US$ 17,90."
+  ],
+  "Carregando matérias…": [
+    "Cargando materias…",
+    "Chargement des sujets…",
+    "Caricamento argomenti…",
+    "Lade Themen…",
+    "A carregar temas..."
+  ],
+  "Disponibilizar todas": [
+    "Hacer todas disponibles",
+    "Tout rendre disponible",
+    "Rendi tutti disponibili",
+    "Alle verfügbar machen",
+    "Disponibilizar todos"
+  ],
+  "Matéria sem cards não pode ir para a Loja.": [
+    "Una materia sin tarjetas no se puede añadir a la tienda.",
+    "Un sujet sans carte ne peut pas être ajouté à la boutique.",
+    "Un argomento senza schede non può essere aggiunto allo Store.",
+    "Ein Thema ohne Karten kann nicht zum Store hinzugefügt werden.",
+    "Um tema sem cartões não pode ser adicionado à Loja."
+  ],
+  "Matéria disponibilizada na Loja.": [
+    "Materia listada en la tienda.",
+    "Sujet listé dans la boutique.",
+    "Argomento elencato nello Store.",
+    "Thema im Store gelistet.",
+    "Tema listado na Loja."
+  ],
+  "Matéria ocultada da Loja.": [
+    "Materia oculta de la tienda.",
+    "Sujet masqué de la boutique.",
+    "Argomento nascosto dallo Store.",
+    "Thema im Store ausgeblendet.",
+    "Tema oculto da Loja."
+  ],
+  "Não foi possível publicar as matérias.": [
+    "No se pudieron publicar las materias.",
+    "Impossible de publier les sujets.",
+    "Impossibile pubblicare gli argomenti.",
+    "Themen konnten nicht veröffentlicht werden.",
+    "Não foi possível publicar os temas."
+  ],
+  "na Loja": [
+    "en la tienda",
+    "dans la boutique",
+    "nello Store",
+    "im Store",
+    "na Loja"
+  ],
+  "fora da Loja": [
+    "no en la tienda",
+    "absent de la boutique",
+    "non nello Store",
+    "nicht im Store",
+    "fora da Loja"
+  ],
+  "cards": [
+    "tarjetas",
+    "cartes",
+    "schede",
+    "Karten",
+    "cartões"
+  ],
+  " · conteúdo atualizado em {date}": [
+    "· contenido actualizado el {date}",
+    "· contenu mis à jour le {date}",
+    "· contenuti aggiornati il {date}",
+    "· Inhalt aktualisiert am {date}",
+    "· conteúdo atualizado em {date}"
+  ],
+  "Disponibilizar matéria": [
+    "Hacer disponible la materia",
+    "Rendre le sujet disponible",
+    "Rendi disponibile l'argomento",
+    "Thema verfügbar machen",
+    "Disponibilizar tema"
+  ],
+  "Validade": [
+    "Validez",
+    "Validité",
+    "Validità",
+    "Gültigkeit",
+    "Validade"
+  ],
+  "365 dias": [
+    "365 días",
+    "365 jours",
+    "365 giorni",
+    "365 Tage",
+    "365 dias"
+  ],
+  "Preço automático": [
+    "Precio automático",
+    "Prix automatique",
+    "Prezzo automatico",
+    "Automatischer Preis",
+    "Preço automático"
+  ],
+  "Preço no Paddle (opcional)": [
+    "Precio en Paddle (opcional)",
+    "Prix Paddle (optionnel)",
+    "Prezzo Paddle (opzionale)",
+    "Paddle-Preis (optional)",
+    "Preço Paddle (opcional)"
+  ],
+  "padrão: {tier}": [
+    "predeterminado: {tier}",
+    "par défaut : {tier}",
+    "predefinito: {tier}",
+    "Standard: {tier}",
+    "predefinição: {tier}"
+  ],
+  "Nenhuma matéria encontrada.": [
+    "No se encontraron materias.",
+    "Aucun sujet trouvé.",
+    "Nessun argomento trovato.",
+    "Keine Themen gefunden.",
+    "Nenhum tema encontrado."
+  ],
+  "Auditoria da comunidade": [
+    "Auditoría comunitaria",
+    "Audit communautaire",
+    "Verifica della community",
+    "Community-Prüfung",
+    "Auditoria da comunidade"
+  ],
+  "Um card só é enviado para o PilotAI validar depois de ser usado por {n} pessoas diferentes. Aprovado, recebe o selo de verificado; reprovado, apenas fica sem o selo. Nada é apagado e o card continua sendo do autor.": [
+    "Una tarjeta se envía a PilotAI para su validación solo después de que {n} personas diferentes la usan. Las tarjetas aprobadas reciben una insignia de verificación; las rechazadas simplemente no la reciben. Nada se elimina y la tarjeta sigue siendo de su autor.",
+    "Une carte est envoyée à PilotAI pour validation seulement après avoir été utilisée par {n} personnes différentes. Les cartes approuvées reçoivent un badge de vérification ; les cartes rejetées n'en reçoivent pas. Rien n'est supprimé, et la carte reste la propriété de son auteur.",
+    "Una scheda viene inviata a PilotAI per la convalida solo dopo che {n} persone diverse l'hanno usata. Le schede approvate ricevono un badge di verifica; quelle respinte semplicemente non lo ricevono. Nulla viene eliminato e la scheda rimane dell'autore.",
+    "Eine Karte wird erst dann zur Validierung an PilotAI gesendet, wenn {n} verschiedene Personen sie genutzt haben. Genehmigte Karten erhalten ein Verifizierungsabzeichen; abgelehnte Karten einfach nicht. Nichts wird gelöscht, und die Karte bleibt beim Autor.",
+    "Um cartão é enviado ao PilotAI para validação apenas após {n} pessoas diferentes o usarem. Os cartões aprovados recebem um selo de verificação; os cartões rejeitados simplesmente não o recebem. Nada é eliminado e o cartão permanece do seu autor."
+  ],
+  "Cards acompanhados": [
+    "Tarjetas monitoreadas",
+    "Cartes surveillées",
+    "Schede monitorate",
+    "Überwachte Karten",
+    "Cartões monitorizados"
+  ],
+  "Aguardando validação": [
+    "Esperando validación",
+    "En attente de validation",
+    "In attesa di convalida",
+    "Wartet auf Validierung",
+    "À espera de validação"
+  ],
+  "Verificados": [
+    "Verificado",
+    "Vérifié",
+    "Verificato",
+    "Verifiziert",
+    "Verificado"
+  ],
+  "{n} pessoas": [
+    "{n} personas",
+    "{n} personnes",
+    "{n} persone",
+    "{n} Personen",
+    "{n} pessoas"
+  ],
+  "Validar agora": [
+    "Validar ahora",
+    "Valider maintenant",
+    "Convalida ora",
+    "Jetzt validieren",
+    "Validar agora"
+  ],
+  "{n} matéria(s) na Loja.": [
+    "{n} materia(s) añadida(s) a la tienda.",
+    "{n} sujet(s) ajouté(s) à la boutique.",
+    "{n} argomento/i aggiunto/i allo Store.",
+    "{n} Thema/Themen zum Store hinzugefügt.",
+    "{n} tema(s) adicionado(s) à Loja."
+  ],
+  "{n} sem cards ficaram de fora.": [
+    "Se omitieron {n} sin tarjetas.",
+    "{n} sujet(s) sans carte ont été ignoré(s).",
+    "{n} senza schede sono stati saltati.",
+    "{n} ohne Karten wurden übersprungen.",
+    "{n} sem cartões foram ignorados."
+  ],
+  "Nenhum card aguardando validação.": [
+    "No hay tarjetas esperando validación.",
+    "Aucune carte en attente de validation.",
+    "Nessuna scheda è in attesa di convalida.",
+    "Keine Karten warten auf Validierung.",
+    "Não há cartões à espera de validação."
+  ],
+  "{checked} card(s) analisados: {approved} aprovado(s), {rejected} sem selo.": [
+    "{checked} tarjeta(s) revisada(s): {approved} aprobadas, {rejected} quedaron sin verificar.",
+    "{checked} carte(s) vérifiée(s) : {approved} approuvée(s), {rejected} laissée(s) non vérifiée(s).",
+    "{checked} scheda/e controllata/e: {approved} approvata/e, {rejected} rimasta/e non verificata/e.",
+    "{checked} Karte(n) geprüft: {approved} genehmigt, {rejected} nicht verifiziert.",
+    "{checked} cartão(ões) verificado(s): {approved} aprovados, {rejected} deixados por verificar."
+  ],
+  "Não foi possível validar agora.": [
+    "No se pudo ejecutar la validación.",
+    "Impossible d'exécuter la validation.",
+    "Impossibile eseguire la convalida.",
+    "Validierung konnte nicht ausgeführt werden.",
+    "Não foi possível executar a validação."
+  ],
+  "Reembolsos": [
+    "Reembolsos",
+    "Remboursements",
+    "Rimborsi",
+    "Rückerstattungen",
+    "Reembolsos"
+  ],
+  "Reembolsos aplicados: {packs} acesso(s) cortado(s), {coins} FlashCoins estornados.": [
+    "Reembolsos aplicados: {packs} concesión(es) de acceso revocada(s), {coins} FlashCoins devueltos.",
+    "Remboursements appliqués : {packs} accès révoqué(s), {coins} FlashCoins retournés.",
+    "Rimborsi applicati: {packs} accesso/i revocato/i, {coins} FlashCoins restituiti.",
+    "Rückerstattungen angewandt: {packs} Zugriffsberechtigung(en) widerrufen, {coins} FlashCoins zurückerstattet.",
+    "Reembolsos aplicados: {packs} acesso(s) revogado(s), {coins} FlashCoins devolvidos."
+  ],
+  "Não foi possível sincronizar os reembolsos.": [
+    "No se pudieron sincronizar los reembolsos.",
+    "Impossible de synchroniser les remboursements.",
+    "Impossibile sincronizzare i rimborsi.",
+    "Rückerstattungen konnten nicht synchronisiert werden.",
+    "Não foi possível sincronizar os reembolsos."
+  ],
+  "Sincronizando…": [
+    "Sincronizando…",
+    "Synchronisation…",
+    "Sincronizzazione…",
+    "Synchronisiere…",
+    "A sincronizar..."
+  ],
+  "Depois de reembolsar uma compra no provedor de pagamentos, clique aqui para cortar o acesso à matéria e estornar os FlashCoins daquela compra. Também acontece automaticamente quando o provedor avisa o app.": [
+    "Después de reembolsar una compra con el proveedor de pago, haz clic aquí para revocar el acceso a la materia y devolver sus FlashCoins. Esto también sucede automáticamente cuando el proveedor notifica a la aplicación.",
+    "Après avoir remboursé un achat auprès du fournisseur de paiement, cliquez ici pour révoquer l'accès au sujet et retourner ses FlashCoins. Cela se produit également automatiquement lorsque le fournisseur notifie l'application.",
+    "Dopo aver rimborsato un acquisto presso il fornitore di pagamento, clicca qui per revocare l'accesso all'argomento e restituire i relativi FlashCoins. Questo avviene anche automaticamente quando il fornitore notifica l'app.",
+    "Nach der Rückerstattung eines Kaufs beim Zahlungsanbieter hier klicken, um den Zugriff auf das Thema zu widerrufen und die FlashCoins zurückzuerstatten. Dies geschieht auch automatisch, wenn der Anbieter die App benachrichtigt.",
+    "Após reembolsar uma compra junto do fornecedor de pagamento, clique aqui para revogar o acesso ao tema e devolver os seus FlashCoins. Isto também acontece automaticamente quando o fornecedor notifica a aplicação."
+  ],
+  "Sincronizar reembolsos": [
+    "Sincronizar reembolsos",
+    "Synchroniser les remboursements",
+    "Sincronizza rimborsi",
+    "Rückerstattungen synchronisieren",
+    "Sincronizar reembolsos"
+  ],
+  "Compras": [
+    "Compras",
+    "Achats",
+    "Acquisti",
+    "Käufe",
+    "Compras"
+  ],
+  "Compras sincronizadas: {recorded} pagamento(s), {coins} crédito(s) de FlashCoins, {packs} matéria(s) liberada(s).": [
+    "Compras sincronizadas: {recorded} pago(s), {coins} crédito(s) de FlashCoins, {packs} materia(s) desbloqueada(s).",
+    "Achats synchronisés : {recorded} paiement(s), {coins} crédit(s) FlashCoins, {packs} sujet(s) débloqué(s).",
+    "Acquisti sincronizzati: {recorded} pagamento/i, {coins} credito/i FlashCoins, {packs} argomento/i sbloccato/i.",
+    "Käufe synchronisiert: {recorded} Zahlung(en), {coins} FlashCoins-Guthaben, {packs} Thema/Themen freigeschaltet.",
+    "Compras sincronizadas: {recorded} pagamento(s), {coins} crédito(s) em FlashCoins, {packs} tema(s) desbloqueado(s)."
+  ],
+  "Não foi possível sincronizar as compras.": [
+    "No se pudieron sincronizar las compras.",
+    "Impossible de synchroniser les achats.",
+    "Impossibile sincronizzare gli acquisti.",
+    "Käufe konnten nicht synchronisiert werden.",
+    "Não foi possível sincronizar as compras."
+  ],
+  "Sincronizar compras": [
+    "Sincronizar compras",
+    "Synchroniser les achats",
+    "Sincronizza acquisti",
+    "Käufe synchronisieren",
+    "Sincronizar compras"
+  ],
+  "Lê os pagamentos aprovados no provedor e aplica o que faltou: FlashCoins creditados e matérias liberadas. Pode rodar quantas vezes quiser — nada é liberado em dobro.": [
+    "Lee los pagos aprobados del proveedor y aplica cualquier crédito faltante o acceso a materias. Puedes ejecutarlo repetidamente; nada se otorga dos veces.",
+    "Lit les paiements approuvés du fournisseur et applique les crédits ou accès aux sujets manquants. Vous pouvez l'exécuter plusieurs fois ; rien n'est accordé deux fois.",
+    "Legge i pagamenti approvati dal fornitore e applica eventuali crediti mancanti o accessi agli argomenti. Puoi eseguirlo ripetutamente; nulla viene concesso due volte.",
+    "Liest genehmigte Zahlungen vom Anbieter und wendet fehlende Guthaben oder Themenzugriffe an. Du kannst dies wiederholt ausführen; nichts wird doppelt vergeben.",
+    "Lê os pagamentos aprovados do fornecedor e aplica os créditos em falta ou o acesso ao tema. Pode executar isto repetidamente; nada é concedido duas vezes."
+  ],
+  "Marcar como revisado": [
+    "Marcar como revisado",
+    "Marquer comme examiné",
+    "Segna come revisionato",
+    "Als geprüft markieren",
+    "Marcar como revisto"
+  ],
+  "ex.: 12 (nº do artigo)": [
+    "p. ej. 12 (número de artículo)",
+    "ex. 12 (numéro d'article)",
+    "es. 12 (numero articolo)",
+    "z. B. 12 (Artikelnummer)",
+    "ex: 12 (número do artigo)"
+  ],
+  "Oficial": [
+    "Oficial",
+    "Officiel",
+    "Ufficiale",
+    "Offiziell",
+    "Oficial"
+  ],
+  "Favoritar": [
+    "Añadir a favoritos",
+    "Ajouter aux favoris",
+    "Aggiungi ai preferiti",
+    "Zu Favoriten hinzufügen",
+    "Adicionar aos favoritos"
+  ],
+  "Expandir": [
+    "Expandir",
+    "Développer",
+    "Espandi",
+    "Ausklappen",
+    "Expandir"
+  ],
+  "Flash Session:": [
+    "Sesión Flash:",
+    "Session Flash :",
+    "Sessione Flash:",
+    "Flash-Sitzung:",
+    "Sessão Flash:"
+  ],
+  "Forma correta": [
+    "Forma correcta",
+    "Forme correcte",
+    "Forma corretta",
+    "Korrekte Form",
+    "Forma correta"
+  ],
+  "Mais natural": [
+    "Más natural",
+    "Plus naturel",
+    "Più naturale",
+    "Natürlicher",
+    "Mais natural"
+  ],
+  "Escolha uma Flash Session ou crie uma nova": [
+    "Elige una sesión de Flash o crea una nueva",
+    "Choisissez une session Flash ou créez-en une nouvelle",
+    "Scegli una Flash Session o creane una nuova",
+    "Wähle eine Flash-Session oder erstelle eine neue",
+    "Escolha uma Flash Session ou crie uma nova"
+  ],
+  "Mapa mental salvo": [
+    "Mapa mental guardado",
+    "Carte heuristique enregistrée",
+    "Mappa mentale salvata",
+    "Mindmap gespeichert",
+    "Mapa mental guardado"
+  ],
+  "Microfone requer HTTPS.": [
+    "El micrófono requiere HTTPS.",
+    "Le microphone nécessite HTTPS.",
+    "Il microfono richiede HTTPS.",
+    "Mikrofon erfordert HTTPS.",
+    "O microfone requer HTTPS."
+  ],
+  "Erro copiado": [
+    "Error copiado",
+    "Erreur copiée",
+    "Errore copiato",
+    "Fehler kopiert",
+    "Erro copiado"
+  ],
+  "Idioma atualizado": [
+    "Idioma actualizado",
+    "Langue mise à jour",
+    "Lingua aggiornata",
+    "Sprache aktualisiert",
+    "Idioma atualizado"
+  ],
+  "Categoria desvinculada": [
+    "Categoría desvinculada",
+    "Catégorie dissociée",
+    "Categoria scollegata",
+    "Kategorie-Verknüpfung aufgehoben",
+    "Categoria desassociada"
+  ],
+  "Flashcards embaralhados": [
+    "Tarjetas mezcladas",
+    "Flashcards mélangées",
+    "Flashcard mescolate",
+    "Karteikarten gemischt",
+    "Flashcards baralhados"
+  ],
+  "Sua resposta foi salva": [
+    "Tu respuesta ha sido guardada",
+    "Votre réponse a été enregistrée",
+    "La tua risposta è stata salvata",
+    "Deine Antwort wurde gespeichert",
+    "A sua resposta foi guardada"
+  ],
+  "Nome atualizado": [
+    "Nombre actualizado",
+    "Nom mis à jour",
+    "Nome aggiornato",
+    "Name aktualisiert",
+    "Nome atualizado"
+  ],
+  "Rejeitar": [
+    "Rechazar",
+    "Rejeter",
+    "Rifiuta",
+    "Ablehnen",
+    "Rejeitar"
+  ],
+  "Sem dados ainda.": [
+    "Aún no hay datos.",
+    "Aucune donnée pour le moment.",
+    "Nessun dato ancora.",
+    "Noch keine Daten vorhanden.",
+    "Ainda sem dados."
+  ],
+  "Seção do relatório": [
+    "Sección del informe",
+    "Section de rapport",
+    "Sezione report",
+    "Berichtsabschnitt",
+    "Secção de relatório"
+  ],
+  "Nome do item": [
+    "Nombre del elemento",
+    "Nom de l'élément",
+    "Nome elemento",
+    "Elementname",
+    "Nome do item"
+  ],
+  "Quantidade total": [
+    "Cantidad total",
+    "Quantité totale",
+    "Quantità totale",
+    "Gesamtmenge",
+    "Quantidade total"
+  ],
+  "Posts mais lidos": [
+    "Publicaciones más leídas",
+    "Articles les plus lus",
+    "Post più letti",
+    "Meistgelesene Beiträge",
+    "Publicações mais lidas"
+  ],
+  "Páginas mais vistas": [
+    "Páginas más vistas",
+    "Pages les plus vues",
+    "Pagine più viste",
+    "Meistbesuchte Seiten",
+    "Páginas mais vistas"
+  ],
+  "Cliques de funções": [
+    "Clics en funciones",
+    "Clics sur les fonctionnalités",
+    "Clic sulle funzionalità",
+    "Feature-Klicks",
+    "Cliques em funcionalidades"
+  ],
+  "Visualizações e cliques": [
+    "Vistas y clics",
+    "Vues et clics",
+    "Visualizzazioni e clic",
+    "Aufrufe und Klicks",
+    "Visualizações e cliques"
+  ],
+  "Relatório de uso": [
+    "Informe de uso",
+    "Rapport d'utilisation",
+    "Report di utilizzo",
+    "Nutzungsbericht",
+    "Relatório de utilização"
+  ],
+  "Visualizações totais": [
+    "Total de vistas",
+    "Vues totales",
+    "Visualizzazioni totali",
+    "Gesamtaufrufe",
+    "Total de visualizações"
+  ],
+  "Cliques totais": [
+    "Total de clics",
+    "Clics totaux",
+    "Clic totali",
+    "Gesamtklicks",
+    "Total de cliques"
+  ],
+  "Visitas totais": [
+    "Total de visitas",
+    "Visites totales",
+    "Visite totali",
+    "Gesamtbesuche",
+    "Total de visitas"
+  ],
+  "Funções mais clicadas": [
+    "Funciones más clicadas",
+    "Fonctionnalités les plus cliquées",
+    "Funzionalità più cliccate",
+    "Meistgeklickte Features",
+    "Funcionalidades mais clicadas"
+  ],
+  "Tentar novamente": [
+    "Intentar de nuevo",
+    "Réessayer",
+    "Riprova",
+    "Erneut versuchen",
+    "Tentar novamente"
+  ],
+  "PilotAI sugerindo título...": [
+    "PilotAI está sugiriendo un título...",
+    "PilotAI suggère un titre...",
+    "PilotAI sta suggerendo un titolo...",
+    "PilotAI schlägt einen Titel vor...",
+    "PilotAI está a sugerir um título..."
+  ],
+  "Entrar": [
+    "Iniciar sesión",
+    "Se connecter",
+    "Accedi",
+    "Anmelden",
+    "Iniciar sessão"
+  ],
+  "Texto acima do limite de 15.000 caracteres.": [
+    "El texto excede el límite de 15,000 caracteres.",
+    "Le texte dépasse la limite de 15 000 caractères.",
+    "Il testo supera il limite di 15.000 caratteri.",
+    "Der Text überschreitet das Limit von 15.000 Zeichen.",
+    "O texto excede o limite de 15.000 caracteres."
+  ],
+  "Ativação em andamento na outra aba. Você já pode fechar esta página.": [
+    "La activación está en curso en otra pestaña. Ya puedes cerrar esta página.",
+    "L'activation est en cours dans un autre onglet. Vous pouvez fermer cette page.",
+    "Attivazione in corso in un'altra scheda. Puoi chiudere questa pagina ora.",
+    "Die Aktivierung läuft bereits in einem anderen Tab. Du kannst diese Seite jetzt schließen.",
+    "A ativação está em curso noutro separador. Pode fechar esta página agora."
+  ],
+  "Abra o e-mail, defina sua senha e o PilotAI criará seus flashcards.": [
+    "Abre el correo, establece tu contraseña y PilotAI creará tus tarjetas.",
+    "Ouvrez l'e-mail, définissez votre mot de passe et PilotAI créera vos flashcards.",
+    "Apri l'email, imposta la password e PilotAI creerà le tue flashcard.",
+    "Öffne die E-Mail, lege dein Passwort fest und PilotAI erstellt deine Karteikarten.",
+    "Abra o e-mail, defina a sua palavra-passe e o PilotAI criará os seus flashcards."
+  ],
+  "Não encontrou? Verifique a pasta de Spam ou Lixo Eletrônico.": [
+    "¿No lo encuentras? Revisa tu carpeta de spam o correo no deseado.",
+    "Vous ne le trouvez pas ? Vérifiez votre dossier spam ou courrier indésirable.",
+    "Non la trovi? Controlla la cartella spam o posta indesiderata.",
+    "Nicht gefunden? Überprüfe deinen Spam- oder Junk-Ordner.",
+    "Não encontra? Verifique a pasta de spam ou lixo eletrónico."
+  ],
+  "Vimos que você já tem conta!": [
+    "¡Parece que ya tienes una cuenta!",
+    "Il semble que vous ayez déjà un compte !",
+    "Sembra che tu abbia già un account!",
+    "Es sieht so aus, als hättest du bereits ein Konto!",
+    "Parece que já tem uma conta!"
+  ],
+  "Faça login abaixo para gerar os flashcards deste texto.": [
+    "Inicia sesión a continuación para generar tarjetas a partir de este texto.",
+    "Connectez-vous ci-dessous pour générer des flashcards à partir de ce texte.",
+    "Accedi qui sotto per generare flashcard da questo testo.",
+    "Melde dich unten an, um Karteikarten aus diesem Text zu generieren.",
+    "Inicie sessão abaixo para gerar flashcards a partir deste texto."
+  ],
+  "Entrar na minha conta": [
+    "Iniciar sesión en mi cuenta",
+    "Me connecter à mon compte",
+    "Accedi al mio account",
+    "Bei meinem Konto anmelden",
+    "Iniciar sessão na minha conta"
+  ],
+  "Tempo máximo de gravação atingido.": [
+    "Se alcanzó el tiempo máximo de grabación.",
+    "Durée d'enregistrement maximale atteinte.",
+    "Tempo di registrazione massimo raggiunto.",
+    "Maximale Aufnahmezeit erreicht.",
+    "Tempo máximo de gravação atingido."
+  ],
+  "Exportar anotação": [
+    "Exportar nota",
+    "Exporter la note",
+    "Esporta nota",
+    "Notiz exportieren",
+    "Exportar nota"
+  ],
+  "Exportar": [
+    "Exportar",
+    "Exporter",
+    "Esporta",
+    "Exportieren",
+    "Exportar"
+  ],
+  "Kit de boas-vindas ativado: 40 FlashCoins, 2 mapas, 3 formatações e 15 turnos de conversa.": [
+    "Kit de bienvenida activado: 40 FlashCoins, 2 mapas mentales, 3 créditos de formato de nota y 15 turnos de conversación.",
+    "Kit de bienvenue activé : 40 FlashCoins, 2 cartes heuristiques, 3 crédits de formatage de notes et 15 tours de conversation.",
+    "Kit di benvenuto attivato: 40 FlashCoins, 2 mappe mentali, 3 crediti di formattazione note e 15 turni di conversazione.",
+    "Willkommenspaket aktiviert: 40 FlashCoins, 2 Mindmaps, 3 Notizformatierungs-Credits und 15 Gesprächsrunden.",
+    "Kit de boas-vindas ativado: 40 FlashCoins, 2 mapas mentais, 3 créditos de formatação de notas e 15 turnos de conversa."
+  ],
+  "Relatório de Flash Cards": [
+    "Informe de tarjetas",
+    "Rapport de flashcards",
+    "Report flashcard",
+    "Karteikarten-Bericht",
+    "Relatório de flashcards"
+  ],
+  "Gerado em": [
+    "Generado el",
+    "Généré le",
+    "Generato il",
+    "Generiert am",
+    "Gerado em"
+  ],
+  "cartão": [
+    "tarjeta",
+    "carte",
+    "carta",
+    "Karte",
+    "cartão"
+  ],
+  "cartões": [
+    "tarjetas",
+    "cartes",
+    "carte",
+    "Karten",
+    "cartões"
+  ],
+  "Descartar": [
+    "Descartar",
+    "Abandonner",
+    "Scarta",
+    "Verwerfen",
+    "Descartar"
+  ],
+  "Imagem removida de {n} {cards}": [
+    "Imagen eliminada de {n} {cards}",
+    "Image supprimée de {n} {cards}",
+    "Immagine rimossa da {n} {cards}",
+    "Bild von {n} {cards} entfernt",
+    "Imagem removida de {n} {cards}"
+  ],
+  "Imagem vinculada a {n} {cards}": [
+    "Imagen vinculada a {n} {cards}",
+    "Image liée à {n} {cards}",
+    "Immagine collegata a {n} {cards}",
+    "Bild mit {n} {cards} verknüpft",
+    "Imagem associada a {n} {cards}"
+  ],
+  "Flashcard criado.": [
+    "Tarjeta creada.",
+    "Flashcard créée.",
+    "Flashcard creata.",
+    "Karteikarte erstellt.",
+    "Flashcard criado."
+  ],
+  "Marcado como revisado": [
+    "Marcado como revisado",
+    "Marqué comme révisé",
+    "Segnato come revisionato",
+    "Als überprüft markiert",
+    "Marcado como revisto"
+  ],
+  "Desmarcado": [
+    "Marcado como no revisado",
+    "Marqué comme non révisé",
+    "Segnato come non revisionato",
+    "Als nicht überprüft markiert",
+    "Marcado como não revisto"
+  ],
+  "Flashcard movido": [
+    "Tarjeta movida",
+    "Flashcard déplacée",
+    "Flashcard spostata",
+    "Karteikarte verschoben",
+    "Flashcard movido"
+  ],
+  "{n} flashcards movidos": [
+    "{n} tarjetas movidas",
+    "{n} flashcards déplacées",
+    "{n} flashcard spostate",
+    "{n} Karteikarten verschoben",
+    "{n} flashcards movidos"
+  ],
+  "https://exemplo.com/imagem.jpg": [
+    "https://example.com/image.jpg",
+    "https://example.com/image.jpg",
+    "https://example.com/image.jpg",
+    "https://example.com/image.jpg",
+    "https://example.com/image.jpg"
+  ],
+  "Página {page}": [
+    "Página {page}",
+    "Page {page}",
+    "Pagina {page}",
+    "Seite {page}",
+    "Página {page}"
+  ],
+  "Página {page} de {total}": [
+    "Página {page} de {total}",
+    "Page {page} sur {total}",
+    "Pagina {page} di {total}",
+    "Seite {page} von {total}",
+    "Página {page} de {total}"
+  ],
+  "flashcard": [
+    "tarjeta",
+    "flashcard",
+    "flashcard",
+    "Karteikarte",
+    "flashcard"
+  ],
+  "flashcards": [
+    "tarjetas",
+    "flashcards",
+    "flashcard",
+    "Karteikarten",
+    "flashcards"
+  ],
+  "Novo link enviado! Verifique seu e-mail.": [
+    "¡Nuevo enlace enviado! Revisa tu correo.",
+    "Nouveau lien envoyé ! Vérifiez votre e-mail.",
+    "Nuovo link inviato! Controlla la tua email.",
+    "Neuer Link gesendet! Überprüfe deine E-Mail.",
+    "Nova ligação enviada! Verifique o seu e-mail."
+  ],
+  "Não foi possível reenviar o link.": [
+    "No se pudo reenviar el enlace.",
+    "Impossible de renvoyer le lien.",
+    "Impossibile reinviare il link.",
+    "Der Link konnte nicht erneut gesendet werden.",
+    "Não foi possível reenviar a ligação."
+  ],
+  "Não foi possível ativar sua conta.": [
+    "No se pudo activar tu cuenta.",
+    "Impossible d'activer votre compte.",
+    "Impossibile attivare il tuo account.",
+    "Dein Konto konnte nicht aktiviert werden.",
+    "Não foi possível ativar a sua conta."
+  ],
+  "Verificando seu link...": [
+    "Verificando tu enlace...",
+    "Vérification de votre lien...",
+    "Verifica del link in corso...",
+    "Link wird überprüft...",
+    "A verificar a sua ligação..."
+  ],
+  "Este link de ativação é inválido ou já foi usado.": [
+    "Este enlace de activación no es válido o ya ha sido utilizado.",
+    "Ce lien d'activation est invalide ou a déjà été utilisé.",
+    "Questo link di attivazione non è valido o è già stato utilizzato.",
+    "Dieser Aktivierungslink ist ungültig oder wurde bereits verwendet.",
+    "Esta ligação de ativação é inválida ou já foi utilizada."
+  ],
+  "Voltar para a página inicial": [
+    "Volver a la página de inicio",
+    "Retour à la page d'accueil",
+    "Torna alla home page",
+    "Zurück zur Startseite",
+    "Voltar à página inicial"
+  ],
+  "Seu link expirou": [
+    "Tu enlace ha caducado",
+    "Votre lien a expiré",
+    "Il tuo link è scaduto",
+    "Dein Link ist abgelaufen",
+    "A sua ligação expirou"
+  ],
+  "O link de ativação é válido por 24 horas. Solicite um novo link para continuar.": [
+    "Los enlaces de activación son válidos por 24 horas. Solicita un nuevo enlace para continuar.",
+    "Les liens d'activation sont valides pendant 24 heures. Demandez un nouveau lien pour continuer.",
+    "I link di attivazione sono validi per 24 ore. Richiedi un nuovo link per continuare.",
+    "Aktivierungslinks sind 24 Stunden gültig. Fordere einen neuen Link an, um fortzufahren.",
+    "As ligações de ativação são válidas por 24 horas. Solicite uma nova ligação para continuar."
+  ],
+  "Link enviado! Verifique seu e-mail": [
+    "¡Enlace enviado! Revisa tu correo",
+    "Lien envoyé ! Vérifiez votre e-mail",
+    "Link inviato! Controlla la tua email",
+    "Link gesendet! Überprüfe deine E-Mail",
+    "Ligação enviada! Verifique o seu e-mail"
+  ],
+  "Solicitar novo link": [
+    "Solicitar un nuevo enlace",
+    "Demander un nouveau lien",
+    "Richiedi un nuovo link",
+    "Neuen Link anfordern",
+    "Solicitar uma nova ligação"
+  ],
+  "Ative sua conta para ver seus flashcards": [
+    "Activa tu cuenta para ver tus tarjetas",
+    "Activez votre compte pour voir vos flashcards",
+    "Attiva il tuo account per visualizzare le tue flashcard",
+    "Aktiviere dein Konto, um deine Karteikarten zu sehen",
+    "Ative a sua conta para ver os seus flashcards"
+  ],
+  "E-mail": [
+    "Correo electrónico",
+    "E-mail",
+    "Email",
+    "E-Mail",
+    "E-mail"
+  ],
+  "Crie sua senha": [
+    "Crea tu contraseña",
+    "Créez votre mot de passe",
+    "Crea la tua password",
+    "Erstelle dein Passwort",
+    "Crie a sua palavra-passe"
+  ],
+  "Ocultar senha": [
+    "Ocultar contraseña",
+    "Masquer le mot de passe",
+    "Nascondi password",
+    "Passwort ausblenden",
+    "Ocultar palavra-passe"
+  ],
+  "Mostrar senha": [
+    "Mostrar contraseña",
+    "Afficher le mot de passe",
+    "Mostra password",
+    "Passwort anzeigen",
+    "Mostrar palavra-passe"
+  ],
+  "Mínimo de 8 caracteres": [
+    "Al menos 8 caracteres",
+    "Au moins 8 caractères",
+    "Almeno 8 caratteri",
+    "Mindestens 8 Zeichen",
+    "Pelo menos 8 caracteres"
+  ],
+  "Li e aceito os": [
+    "He leído y acepto los",
+    "J'ai lu et j'accepte les",
+    "Ho letto e accetto i",
+    "Ich habe die",
+    "Li e concordo com os"
+  ],
+  "Termos de Uso": [
+    "Términos de uso",
+    "Conditions d'utilisation",
+    "Termini di utilizzo",
+    "Nutzungsbedingungen gelesen und stimme ihnen zu",
+    "Termos de Utilização"
+  ],
+  "e a": [
+    "y la",
+    "et la",
+    "e la",
+    "und die",
+    "e com a"
+  ],
+  "Ativar conta e Estudar": [
+    "Activar cuenta y estudiar",
+    "Activer le compte et étudier",
+    "Attiva l'account e studia",
+    "Konto aktivieren und lernen",
+    "Ativar conta e estudar"
+  ],
+  "Formato de imagem não suportado. Use PNG, JPEG, WebP ou GIF.": [
+    "Formato de imagen no admitido. Usa PNG, JPEG, WebP o GIF.",
+    "Format d'image non pris en charge. Utilisez PNG, JPEG, WebP ou GIF.",
+    "Formato immagine non supportato. Usa PNG, JPEG, WebP o GIF.",
+    "Nicht unterstütztes Bildformat. Verwende PNG, JPEG, WebP oder GIF.",
+    "Formato de imagem não suportado. Utilize PNG, JPEG, WebP ou GIF."
+  ],
+  "Cada imagem deve ter no máximo 10 MB.": [
+    "Cada imagen no debe superar los 10 MB.",
+    "Chaque image doit faire au maximum 10 Mo.",
+    "Ogni immagine non deve superare i 10 MB.",
+    "Jedes Bild darf nicht größer als 10 MB sein.",
+    "Cada imagem não deve exceder 10 MB."
+  ],
+  "Falha ao inserir imagem": [
+    "Error al insertar la imagen",
+    "Échec de l'insertion de l'image",
+    "Impossibile inserire l'immagine",
+    "Bild konnte nicht eingefügt werden",
+    "Falha ao inserir imagem"
+  ],
+  "Enviando imagem…": [
+    "Subiendo imagen...",
+    "Téléchargement de l'image…",
+    "Caricamento immagine in corso...",
+    "Bild wird hochgeladen...",
+    "A carregar imagem..."
+  ],
+  "Arraste uma imagem para reposicioná-la. Selecione-a para alinhar; arraste um dos cantos para redimensionar.": [
+    "Arrastra una imagen para reposicionarla. Selecciónala para alinearla; arrastra una esquina para cambiar su tamaño.",
+    "Faites glisser une image pour la repositionner. Sélectionnez-la pour l'aligner ; faites glisser un coin pour la redimensionner.",
+    "Trascina un'immagine per riposizionarla. Selezionala per allinearla; trascina un angolo per ridimensionarla.",
+    "Ziehe ein Bild, um es zu verschieben. Wähle es aus, um es auszurichten; ziehe eine Ecke, um die Größe zu ändern.",
+    "Arraste uma imagem para a reposicionar. Selecione-a para a alinhar; arraste um canto para a redimensionar."
+  ],
+  "Idioma base": [
+    "Idioma base",
+    "Langue de base",
+    "Lingua di base",
+    "Basissprache",
+    "Idioma base"
+  ],
+  "Traduzir para todos os idiomas": [
+    "Traducir a todos los idiomas",
+    "Traduire dans toutes les langues",
+    "Traduci in tutte le lingue",
+    "In alle Sprachen übersetzen",
+    "Traduzir para todos os idiomas"
+  ],
+  "Largura da capa": [
+    "Ancho de portada",
+    "Largeur de couverture",
+    "Larghezza copertina",
+    "Titelbildbreite",
+    "Largura da capa"
+  ],
+  "Publicando…": [
+    "Publicando...",
+    "Publication en cours…",
+    "Pubblicazione in corso...",
+    "Wird veröffentlicht...",
+    "A publicar..."
+  ],
+  "Nenhum inscrito": [
+    "Sin suscriptores",
+    "Aucun abonné",
+    "Nessun iscritto",
+    "Keine Abonnenten",
+    "Sem subscritores"
+  ],
+  "Nenhum comentário": [
+    "Sin comentarios",
+    "Aucun commentaire",
+    "Nessun commento",
+    "Keine Kommentare",
+    "Sem comentários"
+  ],
+  "Não foi possível gerar a planilha modelo.": [
+    "No se pudo generar la plantilla de hoja de cálculo.",
+    "Impossible de générer le modèle de feuille de calcul.",
+    "Impossibile generare il modello di foglio di calcolo.",
+    "Die Tabellenvorlage konnte nicht generiert werden.",
+    "Não foi possível gerar o modelo de folha de cálculo."
+  ],
+  "Arquivo muito grande (máx. 40 MB).": [
+    "El archivo es demasiado grande (máx. 40 MB).",
+    "Le fichier est trop volumineux (40 Mo max).",
+    "Il file è troppo grande (max. 40 MB).",
+    "Datei ist zu groß (max. 40 MB).",
+    "O ficheiro é demasiado grande (máx. 40 MB)."
+  ],
+  "Algumas partes do documento ainda precisam ser processadas. Os flashcards concluídos foram carregados para revisão.": [
+    "Algunas partes del documento aún necesitan procesamiento. Se han cargado las tarjetas completadas para su revisión.",
+    "Certaines parties du document doivent encore être traitées. Les flashcards terminées ont été chargées pour révision.",
+    "Alcune parti del documento devono ancora essere elaborate. Le flashcard completate sono state caricate per la revisione.",
+    "Einige Teile des Dokuments müssen noch verarbeitet werden. Fertige Karteikarten wurden zur Überprüfung geladen.",
+    "Algumas partes do documento ainda necessitam de processamento. Os flashcards concluídos foram carregados para revisão."
+  ],
+  "Não foi possível descartar o processamento.": [
+    "No se pudo descartar el proceso en curso.",
+    "Impossible d'abandonner le travail de traitement.",
+    "Impossibile scartare il processo di elaborazione.",
+    "Der Verarbeitungsvorgang konnte nicht verworfen werden.",
+    "Não foi possível descartar o trabalho de processamento."
+  ],
+  "Envie um PDF por vez.": [
+    "Sube un PDF a la vez.",
+    "Téléchargez un PDF à la fois.",
+    "Carica un PDF alla volta.",
+    "Lade jeweils eine PDF-Datei hoch.",
+    "Carregue um PDF de cada vez."
+  ],
+  "Envie um texto, arquivo ou imagem.": [
+    "Sube texto, un archivo o una imagen.",
+    "Téléchargez du texte, un fichier ou une image.",
+    "Carica testo, un file o un'immagine.",
+    "Lade Text, eine Datei oder ein Bild hoch.",
+    "Carregue texto, um ficheiro ou uma imagem."
+  ],
+  "Informe os capítulos ou seções desejados.": [
+    "Especifica los capítulos o secciones que deseas.",
+    "Précisez les chapitres ou sections souhaités.",
+    "Specifica i capitoli o le sezioni desiderati.",
+    "Gib die gewünschten Kapitel oder Abschnitte an.",
+    "Especifique os capítulos ou secções que pretende."
+  ],
+  "A quantidade desejada precisa ser pelo menos igual ao número de partes ({n}).": [
+    "El número solicitado debe ser al menos el número de partes ({n}).",
+    "Le nombre demandé doit être au moins égal au nombre de parties ({n}).",
+    "Il numero richiesto deve essere almeno pari al numero di parti ({n}).",
+    "Die angeforderte Anzahl muss mindestens der Anzahl der Teile ({n}) entsprechen.",
+    "O número solicitado deve ser, pelo menos, o número de partes ({n})."
+  ],
+  "Enviar arquivo ou texto (com ou sem imagens)": [
+    "Sube un archivo o texto (con o sin imágenes)",
+    "Téléchargez un fichier ou du texte (avec ou sans images)",
+    "Carica un file o un testo (con o senza immagini)",
+    "Datei oder Text hochladen (mit oder ohne Bilder)",
+    "Carregue um ficheiro ou texto (com ou sem imagens)"
+  ],
+  "Envie PDF, Word (.docx), TXT, HTML ou imagens, ou cole um texto. O PilotAI cria os flashcards e, quando uma imagem do material tiver relação com o assunto, cria cards com a imagem.": [
+    "Sube un PDF, Word (.docx), TXT, HTML o imágenes, o pega texto. PilotAI creará tarjetas y les añadirá imágenes de material relevante.",
+    "Téléchargez un PDF, Word (.docx), TXT, HTML ou des images, ou collez du texte. PilotAI crée des flashcards et y ajoute des images pertinentes.",
+    "Carica un PDF, Word (.docx), TXT, HTML o immagini, oppure incolla il testo. PilotAI creerà flashcard e vi aggiungerà immagini pertinenti.",
+    "Lade eine PDF-, Word- (.docx), TXT-, HTML-Datei oder Bilder hoch oder füge Text ein. PilotAI erstellt Karteikarten und fügt relevante Bilder aus dem Material hinzu.",
+    "Carregue um PDF, Word (.docx), TXT, HTML ou imagens, ou cole texto. O PilotAI cria flashcards e adiciona-lhes imagens relevantes do material."
+  ],
+  "Texto opcional…": [
+    "Texto opcional...",
+    "Texte optionnel…",
+    "Testo opzionale...",
+    "Optionaler Text...",
+    "Texto opcional..."
+  ],
+  "O que transformar em flashcards?": [
+    "¿Qué debe convertirse en tarjetas?",
+    "Que faut-il transformer en flashcards ?",
+    "Cosa dovrebbe essere trasformato in flashcard?",
+    "Was soll in Karteikarten umgewandelt werden?",
+    "O que deve ser transformado em flashcards?"
+  ],
+  "Tudo, sem exceção": [
+    "Todo, sin excepciones",
+    "Tout, sans exception",
+    "Tutto, senza eccezioni",
+    "Alles, ohne Ausnahme",
+    "Tudo, sem exceções"
+  ],
+  "Cada artigo, enunciado e conceito vira flashcard.": [
+    "Cada artículo, declaración y concepto se convierte en una tarjeta.",
+    "Chaque article, déclaration et concept devient une flashcard.",
+    "Ogni articolo, dichiarazione e concetto diventa una flashcard.",
+    "Jeder Artikel, jede Aussage und jedes Konzept wird zu einer Karteikarte.",
+    "Todos os artigos, afirmações e conceitos tornam-se um flashcard."
+  ],
+  "Capítulos que eu escolher": [
+    "Capítulos que elija",
+    "Chapitres que je choisis",
+    "Capitoli che scelgo",
+    "Kapitel, die ich wähle",
+    "Capítulos que escolho"
+  ],
+  "Você indica as partes prioritárias; elas são tratadas por completo.": [
+    "Elige secciones prioritarias; se procesarán por completo.",
+    "Choisissez des sections prioritaires ; elles seront traitées intégralement.",
+    "Scegli le sezioni prioritarie; verranno elaborate per intero.",
+    "Wähle Prioritätsabschnitte; sie werden vollständig verarbeitet.",
+    "Escolha secções prioritárias; serão processadas na íntegra."
+  ],
+  "Amostra relevante": [
+    "Muestra relevante",
+    "Exemple pertinent",
+    "Campione pertinente",
+    "Relevante Beispiele",
+    "Amostra relevante"
+  ],
+  "O PilotAI seleciona os pontos principais.": [
+    "PilotAI selecciona los puntos clave.",
+    "PilotAI sélectionne les points clés.",
+    "PilotAI seleziona i punti chiave.",
+    "PilotAI wählt die wichtigsten Punkte aus.",
+    "O PilotAI seleciona os pontos-chave."
+  ],
+  "Ex.: Capítulo 3; Enunciados 100 a 250; Seção Recursos": [
+    "Ej.: Capítulo 3; Declaraciones 100–250; Sección de recursos",
+    "Par ex. Chapitre 3 ; Déclarations 100–250 ; Section des recours",
+    "Esempio: Capitolo 3; Dichiarazioni 100–250; Sezione appelli",
+    "Z. B. Kapitel 3; Aussagen 100–250; Abschnitt Appelle",
+    "P. ex., Capítulo 3; Afirmações 100-250; Secção de recursos"
+  ],
+  "Os cards são divididos igualmente entre perguntas e respostas, completar e múltipla escolha, sempre com a referência e o texto integral no verso.": [
+    "Las tarjetas se dividen equitativamente entre formatos de preguntas y respuestas, completar espacios y opción múltiple, incluyendo siempre la referencia y el texto completo en el reverso.",
+    "Les cartes sont réparties uniformément entre les formats questions-réponses, textes à trous et choix multiples, en incluant toujours la référence et le texte complet au verso.",
+    "Le carte sono suddivise equamente tra domande e risposte, riempimento spazi vuoti e formati a scelta multipla, includendo sempre il riferimento e il testo completo sul retro.",
+    "Die Karten sind gleichmäßig auf Fragen und Antworten, Lückentexte und Multiple-Choice-Formate verteilt, wobei auf der Rückseite immer der Verweis und der vollständige Text enthalten sind.",
+    "Os cartões são divididos equitativamente entre perguntas e respostas, preenchimento de espaços e formatos de escolha múltipla, incluindo sempre a referência e o texto completo no verso."
+  ],
+  "Seus flashcards estão prontos": [
+    "Tus tarjetas están listas",
+    "Vos flashcards sont prêtes",
+    "Le tue flashcard sono pronte",
+    "Deine Karteikarten sind bereit",
+    "Os seus flashcards estão prontos"
+  ],
+  "O processamento foi interrompido": [
+    "El procesamiento fue interrumpido",
+    "Le traitement a été interrompu",
+    "L'elaborazione è stata interrotta",
+    "Die Verarbeitung wurde unterbrochen",
+    "O processamento foi interrompido"
+  ],
+  "Processamento em andamento nos bastidores": [
+    "El procesamiento continúa en segundo plano",
+    "Le traitement se poursuit en arrière-plan",
+    "L'elaborazione continua in background",
+    "Die Verarbeitung läuft im Hintergrund weiter",
+    "O processamento continua em segundo plano"
+  ],
+  "Parte": [
+    "Parte",
+    "Partie",
+    "Parte",
+    "Teil",
+    "Parte"
+  ],
+  "flashcards até agora": [
+    "tarjetas hasta ahora",
+    "flashcards pour le moment",
+    "flashcard finora",
+    "Karteikarten bisher",
+    "flashcards até agora"
+  ],
+  "Nada foi perdido. Carregue os flashcards para revisar e salvar.": [
+    "No se perdió nada. Carga las tarjetas para revisar y guardar.",
+    "Rien n'a été perdu. Chargez les flashcards pour réviser et enregistrer.",
+    "Non è andato perso nulla. Carica le flashcard per revisionarle e salvarle.",
+    "Nichts ging verloren. Lade die Karteikarten zum Überprüfen und Speichern.",
+    "Não foi perdido nada. Carregue os flashcards para rever e guardar."
+  ],
+  "Nada foi perdido: o que já foi gerado está guardado. Não envie o arquivo de novo — continue daqui.": [
+    "No se perdió nada: todo lo generado hasta ahora está guardado. No subas el archivo de nuevo; continúa desde aquí.",
+    "Rien n'a été perdu : tout ce qui a été généré jusqu'à présent est enregistré. Ne retéléchargez pas le fichier, continuez à partir d'ici.",
+    "Non è andato perso nulla: tutto ciò che è stato generato finora è salvato. Non caricare di nuovo il file: continua da qui.",
+    "Nichts ging verloren: Alles bisher Generierte ist gespeichert. Lade die Datei nicht erneut hoch – mache von hier aus weiter.",
+    "Nada foi perdido: tudo o que foi gerado até agora está guardado. Não carregue o ficheiro novamente — continue a partir daqui."
+  ],
+  "Carregar flashcards gerados": [
+    "Cargar tarjetas generadas",
+    "Charger les flashcards générées",
+    "Carica le flashcard generate",
+    "Generierte Karteikarten laden",
+    "Carregar flashcards gerados"
+  ],
+  "Continuar de onde parou": [
+    "Continuar donde te quedaste",
+    "Reprendre là où vous vous étiez arrêté",
+    "Continua da dove avevi interrotto",
+    "Dort weitermachen, wo du aufgehört hast",
+    "Continuar de onde parou"
+  ],
+  "Analisando seu material…": [
+    "Analizando tu material...",
+    "Analyse de votre matériel…",
+    "Analisi del materiale in corso...",
+    "Dein Material wird analysiert...",
+    "A analisar o seu material..."
+  ],
+  "Isso pode levar alguns instantes. Pode deixar esta tela aberta.": [
+    "Esto puede tardar unos instantes. Puedes dejar esta pantalla abierta.",
+    "Cela peut prendre quelques instants. Vous pouvez laisser cet écran ouvert.",
+    "Potrebbe richiedere alcuni istanti. Puoi lasciare aperta questa schermata.",
+    "Dies kann einen Moment dauern. Du kannst diesen Bildschirm geöffnet lassen.",
+    "Isto pode demorar alguns momentos. Pode deixar este ecrã aberto."
+  ],
+  "Seu progresso é salvo a cada parte. Se a conexão cair ou o computador travar, o trabalho continua de onde parou quando você voltar — não precisa enviar o arquivo de novo.": [
+    "Tu progreso se guarda después de cada parte. Si tu conexión cae o tu computadora se congela, el trabajo se reanudará desde donde quedó cuando regreses; no hace falta subir el archivo de nuevo.",
+    "Votre progression est enregistrée après chaque partie. En cas de coupure de connexion ou de blocage de l'ordinateur, le travail reprendra là où il s'est arrêté à votre retour ; inutile de télécharger à nouveau le fichier.",
+    "Il tuo progresso viene salvato dopo ogni parte. Se la connessione cade o il computer si blocca, il lavoro riprenderà da dove era rimasto al tuo ritorno: non è necessario caricare nuovamente il file.",
+    "Dein Fortschritt wird nach jedem Teil gespeichert. Wenn die Verbindung abbricht oder dein Computer einfriert, wird die Arbeit beim nächsten Besuch an der Stelle fortgesetzt, an der sie unterbrochen wurde – die Datei muss nicht erneut hochgeladen werden.",
+    "O seu progresso é guardado após cada parte. Se a sua ligação cair ou o seu computador bloquear, o trabalho retomará de onde parou quando regressar — não precisa de carregar o ficheiro novamente."
+  ],
+  "Área para colar imagem": [
+    "Área para pegar imagen",
+    "Zone de collage d'image",
+    "Area incolla immagine",
+    "Bild-Einfügebereich",
+    "Área de colar imagem"
+  ],
+  "Clique aqui e cole a imagem (Ctrl+V)": [
+    "Haz clic aquí y pega la imagen (Ctrl+V)",
+    "Cliquez ici et collez l'image (Ctrl+V)",
+    "Clicca qui e incolla l'immagine (Ctrl+V)",
+    "Hier klicken und das Bild einfügen (Strg+V)",
+    "Clique aqui e cole a imagem (Ctrl+V)"
+  ],
+  "Ou arraste uma imagem para cá. Depois você ajusta a área que será usada.": [
+    "O arrastra una imagen aquí. Luego puedes ajustar el área a utilizar.",
+    "Ou faites glisser une image ici. Vous pourrez ensuite ajuster la zone à utiliser.",
+    "Oppure trascina un'immagine qui. Potrai quindi regolare l'area da utilizzare.",
+    "Oder ziehe ein Bild hierher. Du kannst dann den Bereich anpassen, der verwendet werden soll.",
+    "Ou arraste uma imagem para aqui. Pode depois ajustar a área a utilizar."
+  ],
+  "Gravando seus flashcards…": [
+    "Guardando tus flashcards…",
+    "Enregistrement de vos flashcards…",
+    "Salvataggio delle flashcard in corso…",
+    "Speichere deine Lernkarten…",
+    "A guardar os seus flashcards…"
+  ],
+  "Face A": [
+    "Anverso",
+    "Recto",
+    "Fronte",
+    "Vorderseite",
+    "Frente"
+  ],
+  "Face B": [
+    "Reverso",
+    "Verso",
+    "Retro",
+    "Rückseite",
+    "Verso"
+  ],
+  "CSV de duas colunas (Face A / Face B)": [
+    "CSV de dos columnas (Anverso / Reverso)",
+    "CSV à deux colonnes (Recto / Verso)",
+    "CSV a due colonne (Fronte / Retro)",
+    "Zweispaltige CSV (Vorderseite / Rückseite)",
+    "CSV de duas colunas (Frente / Verso)"
+  ],
+  "Não conseguimos concluir agora": [
+    "No se pudo finalizar en este momento",
+    "Impossible de terminer pour le moment",
+    "Impossibile completare al momento",
+    "Konnte gerade nicht fertiggestellt werden",
+    "Não foi possível concluir neste momento"
+  ],
+  "A geração dos seus flashcards demorou mais do que o esperado. Você pode tentar novamente sem perder o texto enviado.": [
+    "La generación de tus flashcards está tardando más de lo esperado. Puedes intentarlo de nuevo sin perder el texto que enviaste.",
+    "La génération de vos flashcards prend plus de temps que prévu. Vous pouvez réessayer sans perdre le texte que vous avez envoyé.",
+    "La generazione delle tue flashcard sta richiedendo più tempo del previsto. Puoi riprovare senza perdere il testo inviato.",
+    "Die Erstellung deiner Lernkarten dauert länger als erwartet. Du kannst es erneut versuchen, ohne den gesendeten Text zu verlieren.",
+    "A geração dos seus flashcards está a demorar mais do que o esperado. Pode tentar novamente sem perder o texto que enviou."
+  ],
+  "Tentar gerar novamente": [
+    "Intentar generar de nuevo",
+    "Réessayer la génération",
+    "Riprova la generazione",
+    "Erstellung erneut versuchen",
+    "Tentar gerar novamente"
+  ],
+  "O PilotAI está estruturando seus flashcards...": [
+    "PilotAI está estructurando tus flashcards...",
+    "PilotAI structure vos flashcards...",
+    "PilotAI sta strutturando le tue flashcard...",
+    "PilotAI strukturiert deine Lernkarten…",
+    "O PilotAI está a estruturar os seus flashcards..."
+  ],
+  "Isso leva alguns segundos. Não feche esta página.": [
+    "Esto tomará unos segundos. No cierres esta página.",
+    "Cela prend quelques secondes. Ne fermez pas cette page.",
+    "Ci vorrà qualche secondo. Non chiudere questa pagina.",
+    "Dies dauert nur wenige Sekunden. Schließe diese Seite nicht.",
+    "Isto demora alguns segundos. Não feche esta página."
+  ],
+  "Você sabe quais dispositivos garantem a reserva legal no Brasil?": [
+    "¿Sabes qué disposiciones establecen el principio de legalidad en Brasil?",
+    "Savez-vous quelles dispositions établissent le principe de légalité au Brésil ?",
+    "Sai quali disposizioni stabiliscono il principio di legalità in Brasile?",
+    "Weißt du, welche Bestimmungen das Legalitätsprinzip in Brasilien festlegen?",
+    "Sabe quais os dispositivos que estabelecem o princípio da legalidade no Brasil?"
+  ],
+  "Direito Penal · Constitucional": [
+    "Derecho Penal · Derecho Constitucional",
+    "Droit pénal · Droit constitutionnel",
+    "Diritto penale · Diritto costituzionale",
+    "Strafrecht · Verfassungsrecht",
+    "Direito Penal · Direito Constitucional"
+  ],
+  "Reserva Legal": [
+    "Principio de Legalidad",
+    "Principe de légalité",
+    "Principio di legalità",
+    "Legalitätsprinzip",
+    "Princípio da Legalidade"
+  ],
+  "Ela exige lei prévia. Não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal.": [
+    "Requiere una ley previa. No hay delito sin una ley previa que lo defina, ni pena sin una disposición legal previa.",
+    "Il exige une loi préalable. Il n'y a pas de crime sans loi préalable le définissant, ni de peine sans disposition légale préalable.",
+    "Richiede una legge precedente. Non c'è reato senza una legge precedente che lo definisca, né pena senza una disposizione legale precedente.",
+    "Es erfordert ein vorheriges Gesetz. Es gibt kein Verbrechen ohne ein vorheriges Gesetz, das es definiert, noch eine Strafe ohne eine vorherige gesetzliche Bestimmung.",
+    "Exige lei anterior. Não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal."
+  ],
+  "Exige": [
+    "Requiere",
+    "Nécessite",
+    "Richiede",
+    "Erfordert",
+    "Exige"
+  ],
+  "LEI PRÉVIA": [
+    "LEY PREVIA",
+    "UNE LOI PRÉALABLE",
+    "LEGGE PRECEDENTE",
+    "VORHERIGES GESETZ",
+    "LEI ANTERIOR"
+  ],
+  "para:": [
+    "para:",
+    "pour :",
+    "per:",
+    "für:",
+    "para:"
+  ],
+  "▶ Tipificar crimes": [
+    "▶ Definir delitos",
+    "▶ Définir les crimes",
+    "▶ Definire i reati",
+    "▶ Straftaten definieren",
+    "▶ Definir crimes"
+  ],
+  "▶ Aplicar penas": [
+    "▶ Imponer penas",
+    "▶ Imposer des peines",
+    "▶ Imporre pene",
+    "▶ Strafen verhängen",
+    "▶ Impor penas"
+  ],
+  "Não há crime sem lei anterior… nem pena sem prévia cominação.": [
+    "No hay delito sin ley previa… ni pena sin disposición previa.",
+    "Il n'y a pas de crime sans loi préalable… ni de peine sans disposition préalable.",
+    "Non c'è reato senza una legge precedente… né pena senza una disposizione precedente.",
+    "Kein Verbrechen ohne vorheriges Gesetz… keine Strafe ohne vorherige Bestimmung.",
+    "Não há crime sem lei anterior... nem pena sem prévia cominação."
+  ],
+  "Guarde os dois dispositivos: artigo quinto, inciso trinta e nove, da Constituição. E artigo primeiro do Código Penal.": [
+    "Recuerda las dos disposiciones: Artículo 5, inciso 39 de la Constitución, y Artículo 1 del Código Penal.",
+    "Rappelez-vous les deux dispositions : Article 5, section 39 de la Constitution, et Article 1 du Code pénal.",
+    "Ricorda le due disposizioni: Articolo 5, sezione 39 della Costituzione, e Articolo 1 del Codice Penale.",
+    "Denke an die beiden Bestimmungen: Artikel 5, Abschnitt 39 der Verfassung und Artikel 1 des Strafgesetzbuches.",
+    "Recorde os dois dispositivos: Artigo 5.º, inciso XXXIX da Constituição e Artigo 1.º do Código Penal."
+  ],
+  "Guarde": [
+    "Recuerda",
+    "Retenir",
+    "Ricorda",
+    "Merke dir",
+    "Recorde"
+  ],
+  "Art. 5º, XXXIX · CF/88": [
+    "Art. 5, XXXIX · Constitución Brasileña",
+    "Art. 5, XXXIX · Constitution brésilienne",
+    "Art. 5, XXXIX · Costituzione brasiliana",
+    "Art. 5, XXXIX · Brasilianische Verfassung",
+    "Art. 5.º, XXXIX · Constituição Brasileira"
+  ],
+  "Art. 1º · Código Penal": [
+    "Art. 1 · Código Penal",
+    "Art. 1 · Code pénal",
+    "Art. 1 · Codice Penale",
+    "Art. 1 · Strafgesetzbuch",
+    "Art. 1.º · Código Penal"
+  ],
+  "Simulação · verso do card": [
+    "Demo · reverso de la flashcard",
+    "Démo · verso de la flashcard",
+    "Demo · retro della flashcard",
+    "Demo · Rückseite der Lernkarte",
+    "Demo · verso do flashcard"
+  ],
+  "Quais dispositivos consagram o princípio da reserva legal no ordenamento jurídico brasileiro?": [
+    "¿Qué disposiciones establecen el principio de legalidad en el sistema jurídico brasileño?",
+    "Quelles dispositions établissent le principe de légalité dans le système juridique brésilien ?",
+    "Quali disposizioni stabiliscono il principio di legalità nel sistema giuridico brasiliano?",
+    "Welche Bestimmungen legen das Legalitätsprinzip im brasilianischen Rechtssystem fest?",
+    "Que dispositivos estabelecem o princípio da legalidade no sistema jurídico brasileiro?"
+  ],
+  "Art. 5º, XXXIX da CF e Art. 1º do Código Penal.": [
+    "Art. 5, XXXIX de la Constitución y Art. 1 del Código Penal.",
+    "Art. 5, XXXIX de la Constitution et Art. 1 du Code pénal.",
+    "Art. 5, XXXIX della Costituzione e Art. 1 del Codice Penale.",
+    "Art. 5, XXXIX der Verfassung und Art. 1 des Strafgesetzbuches.",
+    "Art. 5.º, XXXIX da Constituição e Art. 1.º do Código Penal."
+  ],
+  "O princípio da legalidade/reserva legal penal exige lei prévia para tipificação de crimes e aplicação de penas.": [
+    "El principio de legalidad penal requiere una ley previa para definir delitos e imponer penas.",
+    "Le principe de légalité en droit pénal exige une loi préalable pour définir les crimes et imposer des peines.",
+    "Il principio di legalità nel diritto penale richiede una legge precedente per definire i reati e imporre le pene.",
+    "Das strafrechtliche Legalitätsprinzip erfordert ein vorheriges Gesetz, um Straftaten zu definieren und Strafen zu verhängen.",
+    "O princípio da legalidade no direito penal exige lei anterior para definir crimes e impor penas."
+  ],
+  "Minha resposta…": [
+    "Mi respuesta…",
+    "Ma réponse…",
+    "La mia risposta…",
+    "Meine Antwort…",
+    "A minha resposta…"
+  ],
+  "FlashPilot-TV — Simulação": [
+    "FlashPilot-TV — Demo",
+    "FlashPilot-TV — Démo",
+    "FlashPilot-TV — Demo",
+    "FlashPilot-TV — Demo",
+    "FlashPilot-TV — Demo"
+  ],
+  "Simulação do microvídeo dinâmico FlashPilot-TV em um flashcard.": [
+    "Una demo de un micro-video dinámico de FlashPilot-TV en una flashcard.",
+    "Une démo d'une micro-vidéo dynamique FlashPilot-TV sur une flashcard.",
+    "Una demo di un micro-video dinamico FlashPilot-TV su una flashcard.",
+    "Eine Demo eines dynamischen FlashPilot-TV-Mikro-Videos auf einer Lernkarte.",
+    "Uma demonstração de um micro-vídeo dinâmico FlashPilot-TV num flashcard."
+  ],
+  "Microvídeo animado com narração gerado a partir de um flashcard.": [
+    "Un micro-video animado y narrado generado desde una flashcard.",
+    "Une micro-vidéo animée et narrée générée à partir d'une flashcard.",
+    "Un micro-video animato e narrato generato da una flashcard.",
+    "Ein animiertes, vertontes Mikro-Video, generiert aus einer Lernkarte.",
+    "Um micro-vídeo animado e narrado, gerado a partir de um flashcard."
+  ],
+  "Assuntos transferidos": [
+    "Temas transferidos",
+    "Sujets transférés",
+    "Argomenti trasferiti",
+    "Themen übertragen",
+    "Tópicos transferidos"
+  ],
+  "Páginas de destino": [
+    "Páginas de aterrizaje",
+    "Pages de destination",
+    "Landing page",
+    "Landingpages",
+    "Páginas de destino"
+  ],
+  "Informações sobre o ImagePilot": [
+    "Información de ImagePilot",
+    "Informations ImagePilot",
+    "Informazioni ImagePilot",
+    "ImagePilot Informationen",
+    "Informação ImagePilot"
+  ],
+  "Admin": [
+    "Admin",
+    "Admin",
+    "Amministrazione",
+    "Admin",
+    "Admin"
+  ],
+  "Slug": [
+    "Slug",
+    "Slug",
+    "Slug",
+    "Slug",
+    "Slug"
+  ],
+  "Ordem": [
+    "Orden",
+    "Ordre",
+    "Ordine",
+    "Reihenfolge",
+    "Ordem"
+  ],
+  "Erro ao carregar.": [
+    "No se pudo cargar.",
+    "Chargement impossible.",
+    "Impossibile caricare.",
+    "Konnte nicht geladen werden.",
+    "Não foi possível carregar."
+  ],
+  "Expandir: {cards} flashcard(s) e {attachments} anexo(s)": [
+    "Expandir: {cards} flashcard(s) y {attachments} archivo(s) adjunto(s)",
+    "Développer : {cards} flashcard(s) et {attachments} pièce(s) jointe(s)",
+    "Espandi: {cards} flashcard e {attachments} allegato/i",
+    "Aufklappen: {cards} Lernkarte(n) und {attachments} Anhang/-anhänge",
+    "Expandir: {cards} flashcard(s) e {attachments} anexo(s)"
+  ],
+  "Transferindo…": [
+    "Transfiriendo…",
+    "Transfert en cours…",
+    "Trasferimento in corso…",
+    "Übertrage…",
+    "A transferir…"
+  ],
+  "Convertendo…": [
+    "Convirtiendo…",
+    "Conversion en cours…",
+    "Conversione in corso…",
+    "Konvertiere…",
+    "A converter…"
+  ],
+  "(card)": [
+    "(flashcard)",
+    "(flashcard)",
+    "(flashcard)",
+    "(Lernkarte)",
+    "(flashcard)"
+  ],
+  "Flashcards": [
+    "Flashcards",
+    "Flashcards",
+    "Flashcard",
+    "Lernkarten",
+    "Flashcards"
+  ],
+  "Falha ao enviar a imagem": [
+    "No se pudo subir la imagen",
+    "Impossible de télécharger l'image",
+    "Impossibile caricare l'immagine",
+    "Das Bild konnte nicht hochgeladen werden",
+    "Não foi possível carregar a imagem"
+  ],
+  "Erro ao enviar a imagem": [
+    "Error al subir la imagen",
+    "Erreur lors du téléchargement de l'image",
+    "Errore durante il caricamento dell'immagine",
+    "Fehler beim Hochladen des Bildes",
+    "Erro ao carregar a imagem"
+  ],
+  "Card e materiais marcados incorporados ao tópico oficial.": [
+    "Tarjeta y materiales seleccionados incluidos en el tema oficial.",
+    "Carte et matériaux sélectionnés inclus dans le sujet officiel.",
+    "Card e materiali selezionati inclusi nell'argomento ufficiale.",
+    "Karte und ausgewählte Materialien wurden in das offizielle Thema aufgenommen.",
+    "Cartão e materiais selecionados incluídos no tópico oficial."
+  ],
+  "Material rejeitado; original preservado.": [
+    "Material rechazado; se preservó el original.",
+    "Matériel rejeté ; l'original a été conservé.",
+    "Materiale rifiutato; l'originale è stato conservato.",
+    "Material abgelehnt; das Original wurde beibehalten.",
+    "Material rejeitado; o original foi preservado."
+  ],
+  "Revisão salva; material continua pendente.": [
+    "Revisión guardada; el material sigue pendiente.",
+    "Révision enregistrée ; le matériel est toujours en attente.",
+    "Revisione salvata; il materiale è ancora in sospeso.",
+    "Überprüfung gespeichert; das Material ist noch ausstehend.",
+    "Revisão guardada; o material continua pendente."
+  ],
+  "Preencha a redação, taxonomia, parecer e comprovação de origem/direitos.": [
+    "Completa el contenido, la taxonomía, la revisión y la prueba de fuente/derechos.",
+    "Complétez le contenu, la taxonomie, la révision et la preuve de la source/des droits.",
+    "Completa il contenuto, la tassonomia, la revisione e la prova della fonte/diritti.",
+    "Vervollständige Inhalt, Taxonomie, Überprüfung und Nachweis der Quelle/Rechte.",
+    "Conclua o conteúdo, a taxonomia, a revisão e a prova de origem/direitos."
+  ],
+  "Itálico": [
+    "Cursiva",
+    "Italique",
+    "Corsivo",
+    "Kursiv",
+    "Itálico"
+  ],
+  "Sublinhado": [
+    "Subrayado",
+    "Souligné",
+    "Sottolineato",
+    "Unterstrichen",
+    "Sublinhado"
+  ],
+  "Centralizar": [
+    "Centrar",
+    "Aligner au centre",
+    "Allinea al centro",
+    "Zentriert",
+    "Alinhar ao centro"
+  ],
+  "Justificar": [
+    "Justificar",
+    "Justifier",
+    "Giustificato",
+    "Blocksatz",
+    "Justificar"
+  ],
+  "Lista": [
+    "Lista con viñetas",
+    "Liste à puces",
+    "Elenco puntato",
+    "Aufzählungsliste",
+    "Lista com marcas"
+  ],
+  "PDF (.pdf)": [
+    "PDF (.pdf)",
+    "PDF (.pdf)",
+    "PDF (.pdf)",
+    "PDF (.pdf)",
+    "PDF (.pdf)"
+  ],
+  "Word (.docx)": [
+    "Word (.docx)",
+    "Word (.docx)",
+    "Word (.docx)",
+    "Word (.docx)",
+    "Word (.docx)"
+  ],
+  "Erro": [
+    "Error",
+    "Erreur",
+    "Errore",
+    "Fehler",
+    "Erro"
+  ],
+  "Aplicar {n}": [
+    "Aplicar {n}",
+    "Appliquer {n}",
+    "Applica {n}",
+    "Anwenden {n}",
+    "Aplicar {n}"
+  ],
+  "{n} flashcard(s).": [
+    "{n} flashcard(s).",
+    "{n} flashcard(s).",
+    "{n} flashcard.",
+    "{n} Lernkarte(n).",
+    "{n} flashcard(s)."
+  ],
+  "{total} card(s) copiado(s) para o assunto de destino.": [
+    "{total} tarjeta(s) copiada(s) al tema de destino.",
+    "{total} carte(s) copiée(s) vers le sujet de destination.",
+    "{total} card copiate nell'argomento di destinazione.",
+    "{total} Karte(n) in das Zielthema kopiert.",
+    "{total} cartão(ões) copiado(s) para o tópico de destino."
+  ],
+  "{count} flashcard(s) sincronizado(s) com o assunto": [
+    "{count} flashcard(s) sincronizada(s) con el tema",
+    "{count} flashcard(s) synchronisée(s) avec le sujet",
+    "{count} flashcard sincronizzate con l'argomento",
+    "{count} Lernkarte(n) mit dem Thema synchronisiert",
+    "{count} flashcard(s) sincronizado(s) com o tópico"
+  ],
+  "{n} trechos ×": [
+    "{n} selecciones ×",
+    "{n} sélection(s) ×",
+    "{n} selezioni ×",
+    "{n} Auswahlen ×",
+    "{n} seleções ×"
+  ],
+  "Tamanho da fonte do trecho selecionado": [
+    "Tamaño de fuente del texto seleccionado",
+    "Taille de police du texte sélectionné",
+    "Dimensione carattere del testo selezionato",
+    "Schriftgröße des ausgewählten Textes",
+    "Tamanho da fonte do texto selecionado"
+  ],
+  "Cor {color}": [
+    "Color {color}",
+    "Couleur {color}",
+    "Colore {color}",
+    "Farbe {color}",
+    "Cor {color}"
+  ],
+  "Revisado": [
+    "Revisado",
+    "Révisé",
+    "Revisionato",
+    "Überprüft",
+    "Revisto"
+  ],
+  "Editar": [
+    "Editar",
+    "Modifier",
+    "Modifica",
+    "Bearbeiten",
+    "Editar"
+  ],
+  "Ocorreu um erro ao processar o seu material. Por favor, tente novamente.": [
+    "Ocurrió un error al procesar tu material. Por favor, inténtalo de nuevo.",
+    "Une erreur s'est produite lors du traitement de votre contenu. Veuillez réessayer.",
+    "Si è verificato un errore durante l'elaborazione del materiale. Riprova.",
+    "Beim Verarbeiten deines Materials ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+    "Ocorreu um erro ao processar o seu material. Por favor, tente novamente."
+  ],
+  "Visualizar meus flashcards": [
+    "Ver mis flashcards",
+    "Voir mes flashcards",
+    "Visualizza le mie flashcard",
+    "Meine Lernkarten ansehen",
+    "Ver os meus flashcards"
+  ],
+  "Crie flashcards inteligentes": [
+    "Crea flashcards inteligentes",
+    "Créez des flashcards intelligentes",
+    "Crea flashcard intelligenti",
+    "Erstelle intelligente Lernkarten",
+    "Crie flashcards inteligentes"
+  ],
+  "Seus dados são protegidos e usados para vincular seu teste gratuito.": [
+    "Tus datos están protegidos y se utilizan para vincular tu prueba gratuita.",
+    "Vos données sont protégées et utilisées pour lier votre essai gratuit.",
+    "I tuoi dati sono protetti e utilizzati per collegare la tua prova gratuita.",
+    "Deine Daten sind geschützt und werden zur Verknüpfung deiner kostenlosen Testphase verwendet.",
+    "Os seus dados estão protegidos e são utilizados para ativar a sua avaliação gratuita."
+  ],
+  "Como gostaria de ser chamado": [
+    "¿Cómo debemos llamarte?",
+    "Comment devons-nous vous appeler ?",
+    "Come ti chiamiamo?",
+    "Wie sollen wir dich nennen?",
+    "Como gostaria de ser chamado?"
+  ],
+  "Criando seus flashcards com inteligência artificial...": [
+    "Creando tus flashcards con PilotAI...",
+    "Création de vos flashcards avec PilotAI...",
+    "Creazione delle tue flashcard con PilotAI...",
+    "Erstelle deine Lernkarten mit PilotAI...",
+    "A criar os seus flashcards com o PilotAI..."
+  ],
+  "Por favor, informe seu nome.": [
+    "Por favor, introduce tu nombre.",
+    "Veuillez saisir votre nom.",
+    "Inserisci il tuo nome.",
+    "Bitte gib deinen Namen ein.",
+    "Por favor, introduza o seu nome."
+  ],
+  "Por favor, informe um e-mail válido.": [
+    "Por favor, introduce una dirección de correo electrónico válida.",
+    "Veuillez saisir une adresse e-mail valide.",
+    "Inserisci un indirizzo email valido.",
+    "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "Por favor, introduza um endereço de e-mail válido."
+  ],
+  "Nosso modelo está lendo o conteúdo e estruturando perguntas e respostas atômicas com revisão espaçada.": [
+    "Nuestro modelo está analizando el contenido y estructurando tarjetas atómicas de preguntas y respuestas para la repetición espaciada.",
+    "Notre modèle analyse le contenu et structure des cartes questions-réponses atomiques pour la répétition espacée.",
+    "Il nostro modello sta leggendo il contenuto e strutturando flashcard atomiche di domande e risposte per la ripetizione dilazionata.",
+    "Unser Modell liest den Inhalt und strukturiert atomare Frage-Antwort-Karten für das Lernen mit zeitlich verteilten Wiederholungen.",
+    "O nosso modelo está a ler o conteúdo e a estruturar cartões atómicos de pergunta e resposta para repetição espaçada."
+  ],
+  "Processando material · aguarde alguns segundos": [
+    "Procesando tu material · por favor, espera unos segundos.",
+    "Traitement de votre contenu · veuillez patienter quelques secondes.",
+    "Elaborazione del materiale in corso · attendi qualche secondo.",
+    "Material wird verarbeitet · bitte warte einen Moment.",
+    "A processar o seu material · por favor, aguarde alguns segundos."
+  ],
+  "Não foi possível gerar os flashcards": [
+    "No se pudieron generar las flashcards.",
+    "Impossible de générer les flashcards.",
+    "Impossibile generare le flashcard.",
+    "Lernkarten konnten nicht erstellt werden.",
+    "Não foi possível gerar os flashcards."
+  ],
+  "Resultado do seu teste": [
+    "Tus resultados del examen",
+    "Vos résultats de test",
+    "I tuoi risultati del test",
+    "Deine Testergebnisse",
+    "Os seus resultados do teste"
+  ],
+  "Seus Flashcards Gerados": [
+    "Tus flashcards generadas",
+    "Vos flashcards générées",
+    "Le tue flashcard generate",
+    "Deine erstellten Lernkarten",
+    "Os seus flashcards gerados"
+  ],
+  "Card {current} de {total}": [
+    "Tarjeta {current} de {total}",
+    "Carte {current} sur {total}",
+    "Carta {current} di {total}",
+    "Karte {current} von {total}",
+    "Cartão {current} de {total}"
+  ],
+  "Virar flashcard": [
+    "Voltear flashcard",
+    "Retourner la flashcard",
+    "Gira flashcard",
+    "Lernkarte umdrehen",
+    "Virar flashcard"
+  ],
+  "Clique para virar": [
+    "Haz clic para voltear",
+    "Cliquez pour retourner",
+    "Clicca per girare",
+    "Zum Umdrehen klicken",
+    "Clique para virar"
+  ],
+  "Clique no cartão para conferir a resposta": [
+    "Haz clic en la tarjeta para revelar la respuesta",
+    "Cliquez sur la carte pour révéler la réponse",
+    "Clicca sulla carta per rivelare la risposta",
+    "Klicke auf die Karte, um die Antwort anzuzeigen",
+    "Clique no cartão para revelar a resposta"
+  ],
+  "Clique novamente para ver a pergunta": [
+    "Haz clic de nuevo para ver la pregunta",
+    "Cliquez à nouveau pour voir la question",
+    "Clicca di nuovo per vedere la domanda",
+    "Erneut klicken, um die Frage zu sehen",
+    "Clique novamente para ver a pergunta"
+  ],
+  "Ir para o card {n}": [
+    "Ir a la tarjeta {n}",
+    "Aller à la carte {n}",
+    "Vai alla carta {n}",
+    "Zu Karte {n} gehen",
+    "Ir para o cartão {n}"
+  ],
+  "Anterior": [
+    "Anterior",
+    "Précédent",
+    "Indietro",
+    "Zurück",
+    "Anterior"
+  ],
+  "Próximo": [
+    "Siguiente",
+    "Suivant",
+    "Avanti",
+    "Weiter",
+    "Seguinte"
+  ],
+  "Novo Teste": [
+    "Nuevo test",
+    "Nouveau test",
+    "Nuovo test",
+    "Neuer Test",
+    "Novo teste"
+  ],
+  "Você aproveitou todos os seus testes gratuitos de hoje": [
+    "Has usado todas tus pruebas gratuitas de hoy",
+    "Vous avez utilisé tous vos tests gratuits d'aujourd'hui",
+    "Hai usato tutti i tuoi test gratuiti di oggi",
+    "Du hast heute alle deine kostenlosen Tests genutzt",
+    "Aproveitou todos os seus testes gratuitos de hoje"
+  ],
+  "Crie sua conta gratuita ou torne-se assinante para continuar gerando flashcards sem limites diários. Confirme o link que enviaremos para o seu e-mail para ativar o acesso.": [
+    "Crea tu cuenta gratuita o hazte suscriptor para seguir generando flashcards sin límites diarios. Confirma el enlace que enviaremos a tu correo para activar el acceso.",
+    "Créez votre compte gratuit ou devenez abonné pour continuer à générer des flashcards sans limite quotidienne. Confirmez le lien que nous enverrons à votre e-mail pour activer l'accès.",
+    "Crea il tuo account gratuito o abbonati per continuare a generare flashcard senza limiti giornalieri. Conferma il link che invieremo alla tua e-mail per attivare l'accesso.",
+    "Erstelle dein kostenloses Konto oder werde Abonnent, um ohne tägliche Limits weiter Karteikarten zu erzeugen. Bestätige den Link, den wir an dein Postfach senden, um den Zugang zu aktivieren.",
+    "Crie a sua conta gratuita ou torne-se assinante para continuar a gerar flashcards sem limites diários. Confirme a ligação que enviaremos para o seu e-mail para ativar o acesso."
+  ],
+  "Criar minha conta": [
+    "Crear mi cuenta",
+    "Créer mon compte",
+    "Crea il mio account",
+    "Mein Konto erstellen",
+    "Criar a minha conta"
+  ],
+  "Ver planos de assinatura": [
+    "Ver planes de suscripción",
+    "Voir les formules d'abonnement",
+    "Vedi i piani di abbonamento",
+    "Abo-Pläne ansehen",
+    "Ver planos de subscrição"
+  ],
+  "Voltar ao início": [
+    "Volver al inicio",
+    "Retour au début",
+    "Torna all'inizio",
+    "Zurück zum Anfang",
+    "Voltar ao início"
+  ],
+  "O número de caracteres é maior que o permitido no ambiente de teste. Vamos criar os flashcards até o limite do teste gratuito.": [
+    "El número de caracteres es mayor que el permitido en el entorno de prueba. Crearemos las tarjetas hasta el límite de la prueba gratuita.",
+    "Le nombre de caractères dépasse celui autorisé dans l'environnement de test. Nous créerons les cartes jusqu'à la limite de l'essai gratuit.",
+    "Il numero di caratteri è superiore a quello consentito nell'ambiente di prova. Creeremo le flashcard fino al limite della prova gratuita.",
+    "Die Zeichenanzahl liegt über dem in der Testumgebung erlaubten Wert. Wir erstellen die Karteikarten bis zur Grenze des kostenlosen Tests.",
+    "O número de caracteres é superior ao permitido no ambiente de teste. Vamos criar os flashcards até ao limite do teste gratuito."
+  ],
+  "Correto!": [
+    "¡Correcto!",
+    "Correct !",
+    "Corretto!",
+    "Richtig!",
+    "Correto!"
+  ],
+  "Não é esse par. Tente de novo.": [
+    "No es este par. Inténtalo de nuevo.",
+    "Ce n'est pas la bonne paire. Réessayez.",
+    "Non è questa la coppia. Riprova.",
+    "Das ist nicht das richtige Paar. Versuche es erneut.",
+    "Não é este par. Tente de novo."
+  ],
+  "Rodada anterior": [
+    "Ronda anterior",
+    "Manche précédente",
+    "Round precedente",
+    "Vorherige Runde",
+    "Ronda anterior"
+  ],
+  "Próxima rodada": [
+    "Próxima ronda",
+    "Manche suivante",
+    "Prossimo round",
+    "Nächste Runde",
+    "Próxima ronda"
+  ],
+  "Rodada": [
+    "Ronda",
+    "Manche",
+    "Round",
+    "Runde",
+    "Ronda"
+  ],
+  "Arraste cada conceito até a sua explicação (ou toque em um de cada coluna).": [
+    "Arrastra cada concepto hasta su explicación (o toca uno de cada columna).",
+    "Faites glisser chaque concept vers son explication (ou appuyez sur un élément de chaque colonne).",
+    "Trascina ogni concetto sulla sua spiegazione (o tocca un elemento per colonna).",
+    "Ziehe jeden Begriff zu seiner Erklärung (oder tippe auf einen in jeder Spalte).",
+    "Arraste cada conceito até à sua explicação (ou toque num de cada coluna)."
+  ],
+  "Rodada concluída!": [
+    "¡Ronda completada!",
+    "Manche terminée !",
+    "Round completato!",
+    "Runde abgeschlossen!",
+    "Ronda concluída!"
+  ],
+  "Você combinou todos os pares!": [
+    "¡Combinaste todos los pares!",
+    "Vous avez associé toutes les paires !",
+    "Hai abbinato tutte le coppie!",
+    "Du hast alle Paare zugeordnet!",
+    "Combinou todos os pares!"
+  ],
+  "Sem nenhum erro. Excelente!": [
+    "Sin ningún error. ¡Excelente!",
+    "Sans aucune erreur. Excellent !",
+    "Senza errori. Eccellente!",
+    "Ohne Fehler. Ausgezeichnet!",
+    "Sem nenhum erro. Excelente!"
+  ],
+  "Tentativas erradas:": [
+    "Intentos incorrectos:",
+    "Tentatives erronées :",
+    "Tentativi errati:",
+    "Falsche Versuche:",
+    "Tentativas erradas:"
+  ],
+  "Jogar de novo": [
+    "Jugar de nuevo",
+    "Rejouer",
+    "Gioca di nuovo",
+    "Erneut spielen",
+    "Jogar de novo"
+  ],
+  "Voltar ao assunto": [
+    "Volver al tema",
+    "Retourner au sujet",
+    "Torna all'argomento",
+    "Zurück zum Thema",
+    "Voltar ao assunto"
+  ],
+  "Este FlashMatch não foi encontrado.": [
+    "No se encontró este FlashMatch.",
+    "Ce FlashMatch n'a pas été trouvé.",
+    "Questo FlashMatch non è stato trovato.",
+    "Dieses FlashMatch wurde nicht gefunden.",
+    "Este FlashMatch não foi encontrado."
+  ],
+  "FlashMatch excluído.": [
+    "FlashMatch eliminado.",
+    "FlashMatch supprimé.",
+    "FlashMatch eliminato.",
+    "FlashMatch gelöscht.",
+    "FlashMatch eliminado."
+  ],
+  "Não foi possível excluir o FlashMatch.": [
+    "No se pudo eliminar el FlashMatch.",
+    "Impossible de supprimer le FlashMatch.",
+    "Impossibile eliminare il FlashMatch.",
+    "FlashMatch konnte nicht gelöscht werden.",
+    "Não foi possível eliminar o FlashMatch."
+  ],
+  "rodada": [
+    "ronda",
+    "manche",
+    "round",
+    "Runde",
+    "ronda"
+  ],
+  "rodadas": [
+    "rondas",
+    "manches",
+    "round",
+    "Runden",
+    "rondas"
+  ],
+  "Jogar": [
+    "Jugar",
+    "Jouer",
+    "Gioca",
+    "Spielen",
+    "Jogar"
+  ],
+  "Excluir FlashMatch": [
+    "Eliminar FlashMatch",
+    "Supprimer le FlashMatch",
+    "Elimina FlashMatch",
+    "FlashMatch löschen",
+    "Eliminar FlashMatch"
+  ],
+  "Excluir este FlashMatch?": [
+    "¿Eliminar este FlashMatch?",
+    "Supprimer ce FlashMatch ?",
+    "Eliminare questo FlashMatch?",
+    "Dieses FlashMatch löschen?",
+    "Eliminar este FlashMatch?"
+  ],
+  "O FlashMatch criará um game de combinação em colunas para que você pratique o assunto associando conceitos e respostas.": [
+    "FlashMatch creará un juego de combinación en columnas para que practiques el tema asociando conceptos y respuestas.",
+    "FlashMatch créera un jeu d'association en colonnes pour vous permettre de pratiquer le sujet en associant concepts et réponses.",
+    "FlashMatch creerà un gioco di abbinamento a colonne per farti ripassare l'argomento associando concetti e risposte.",
+    "FlashMatch erstellt ein Zuordnungsspiel in Spalten, damit du das Thema durch das Verknüpfen von Begriffen und Antworten üben kannst.",
+    "O FlashMatch criará um jogo de combinação em colunas para que pratique o assunto associando conceitos e respostas."
+  ],
+  "Incluir FlashMatch": [
+    "Incluir FlashMatch",
+    "Inclure FlashMatch",
+    "Includi FlashMatch",
+    "FlashMatch hinzufügen",
+    "Incluir FlashMatch"
+  ],
+  "FlashMatch criado!": [
+    "¡FlashMatch creado!",
+    "FlashMatch créé !",
+    "FlashMatch creato!",
+    "FlashMatch erstellt!",
+    "FlashMatch criado!"
+  ],
+  "Os flashcards foram criados, mas não foi possível criar o FlashMatch agora.": [
+    "Se crearon los flashcards, pero no se pudo crear el FlashMatch ahora.",
+    "Les flashcards ont été créées, mais il a été impossible de créer le FlashMatch pour le moment.",
+    "I flashcard sono stati creati, ma non è stato possibile creare il FlashMatch ora.",
+    "Die Flashcards wurden erstellt, aber das FlashMatch konnte momentan nicht erstellt werden.",
+    "Os flashcards foram criados, mas não foi possível criar o FlashMatch agora."
+  ],
+  "Escolha quais cards usar": [
+    "Elige qué tarjetas usar",
+    "Choisissez les cartes à utiliser",
+    "Scegli quali card usare",
+    "Wähle aus, welche Karten verwendet werden sollen",
+    "Escolha que cartões usar"
+  ],
+  "Cards": [
+    "Tarjetas",
+    "Cartes",
+    "Card",
+    "Karten",
+    "Cartões"
+  ],
+  "Criando o FlashMatch…": [
+    "Creando el FlashMatch…",
+    "Création du FlashMatch…",
+    "Creazione del FlashMatch in corso…",
+    "FlashMatch wird erstellt…",
+    "A criar o FlashMatch…"
+  ],
+  "Criar FlashMatch com os cards deste assunto": [
+    "Crear FlashMatch con las tarjetas de este tema",
+    "Créer un FlashMatch avec les cartes de ce sujet",
+    "Crea FlashMatch con le card di questo argomento",
+    "FlashMatch mit den Karten dieses Themas erstellen",
+    "Criar FlashMatch com os cartões deste assunto"
+  ]
+}

@@ -1,0 +1,1 @@
+COMMENT ON TABLE public.game_decks IS 'FlashMatch games (student copies and official decks)';
